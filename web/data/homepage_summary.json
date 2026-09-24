@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-24T07:44:28.824348Z",
-  "data_as_of": "2026-09-24T07:37:24.340899Z",
+  "generated_at": "2026-09-24T08:45:40.976815Z",
+  "data_as_of": "2026-09-24T08:38:37.329169Z",
   "data_age_hours": 0.0,
-  "source_last_run": "2026-09-24T07:02:03.850678+00:00",
-  "source_age_hours": 0.6,
-  "source_cve_count": 396909,
+  "source_last_run": "2026-09-24T07:49:57.381154+00:00",
+  "source_age_hours": 0.8,
+  "source_cve_count": 396929,
   "current_year": 2026,
   "yearly_summary": {
     "years": {
@@ -118,7 +118,7 @@
       },
       "2026": {
         "year": 2026,
-        "total_cves": 69648
+        "total_cves": 69667
       }
     }
   },
@@ -342,15 +342,15 @@
       },
       {
         "year": 2026,
-        "cves": 69648,
-        "growth_rate": 100.4,
-        "growth_absolute": 34900,
+        "cves": 69667,
+        "growth_rate": 100.5,
+        "growth_absolute": 34919,
         "is_ytd": true,
-        "projected_full_year": 95211,
-        "ytd_vs_prev_full": 44.6,
-        "ytd_vs_prev_ytd": 100.4,
+        "projected_full_year": 95237,
+        "ytd_vs_prev_full": 44.7,
+        "ytd_vs_prev_ytd": 100.5,
         "prev_year_ytd_actual": 34748,
-        "growth_rate_3yr_avg": 100.4
+        "growth_rate_3yr_avg": 100.5
       }
     ]
   },
@@ -561,12 +561,12 @@
         "7.6": 1158,
         "9.3": 898,
         "4.9": 2168,
-        "4.2": 634,
+        "4.2": 635,
         "4.0": 667,
         "3.4": 131,
         "8.0": 1369,
         "5.1": 396,
-        "6.6": 745,
+        "6.6": 746,
         "6.4": 4081,
         "8.6": 1523,
         "6.2": 1106,
@@ -631,7 +631,7 @@
         "9.0": 79,
         "1.0": 52,
         "8.5": 997,
-        "7.5": 178,
+        "7.5": 179,
         "8.9": 358,
         "5.7": 178,
         "7.0": 415,
@@ -693,7 +693,7 @@
       }
     },
     "kev_global_count": 1721,
-    "total_scores_all_versions": 541839
+    "total_scores_all_versions": 541842
   },
   "epss_analysis": {
     "statistics": {
@@ -802,7 +802,7 @@
       {
         "id": "862",
         "name": "CWE-862: Missing Authorization",
-        "count": 10883,
+        "count": 10885,
         "description": "Missing Authorization"
       },
       {
@@ -812,7 +812,7 @@
         "description": "Use After Free"
       }
     ],
-    "total_cves_with_cwe": 269913,
+    "total_cves_with_cwe": 269916,
     "total_unique_cwes": 69
   },
   "cna_analysis": {
@@ -3818,9 +3818,9 @@
       },
       {
         "date": "2026-09-24",
-        "value": 33,
+        "value": 52,
         "avg_cvss": 6.2,
-        "cvss_count": 29
+        "cvss_count": 31
       }
     ]
   }
