@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T04:40:50.581545",
+  "generated_at": "2026-09-24T05:40:24.504529",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 378,
@@ -10955,10 +10955,64 @@
       ]
     },
     {
+      "name": "PaperCut",
+      "assigner_org_id": "eb41dac7-0af8-4f84-9f6d-0272772514f4",
+      "count": 11,
+      "rank": 206,
+      "first_cve_date": "2026-03-31T00:39:56.135Z",
+      "last_cve_date": "2026-09-24T05:17:40.276Z",
+      "years_active": 4,
+      "first_cve_year": 2023,
+      "last_cve_year": 2026,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {
+        "Medium": 5,
+        "High": 3,
+        "Low": 2,
+        "Critical": 1
+      },
+      "top_cwe_types": {
+        "CWE-208": 1,
+        "CWE-307": 1,
+        "CWE-427": 1,
+        "CWE-20": 1,
+        "CWE-367": 1
+      },
+      "kev_count": 2,
+      "epss_high_count": 0,
+      "epss_elevated_count": 0,
+      "top_cwes": [
+        [
+          "CWE-208",
+          1
+        ],
+        [
+          "CWE-307",
+          1
+        ],
+        [
+          "CWE-427",
+          1
+        ],
+        [
+          "CWE-20",
+          1
+        ],
+        [
+          "CWE-367",
+          1
+        ]
+      ]
+    },
+    {
       "name": "VULSec",
       "assigner_org_id": "2fdefc65-d750-4b8d-96ee-6e2c0c42dbfe",
       "count": 11,
-      "rank": 206,
+      "rank": 207,
       "first_cve_date": "2026-03-05T14:14:11.125Z",
       "last_cve_date": "2026-03-05T16:04:36.443Z",
       "years_active": 4,
@@ -11011,7 +11065,7 @@
       "name": "sba-research",
       "assigner_org_id": "1e3a9e0f-5156-4bf8-b8a3-cc311bfc0f4a",
       "count": 10,
-      "rank": 207,
+      "rank": 208,
       "first_cve_date": "2026-03-04T22:43:53.077Z",
       "last_cve_date": "2026-07-30T09:45:24.228Z",
       "years_active": 3,
@@ -11063,7 +11117,7 @@
       "name": "NetScaler",
       "assigner_org_id": "50a63c94-1ea7-4568-8c11-eb79e7c5a2b5",
       "count": 10,
-      "rank": 208,
+      "rank": 209,
       "first_cve_date": "2026-03-23T20:09:44.971Z",
       "last_cve_date": "2026-08-19T12:54:39.730Z",
       "years_active": 1,
@@ -11116,7 +11170,7 @@
       "name": "Octopus",
       "assigner_org_id": "6f4f8c89-ef06-4bae-a2a5-6734ddf76272",
       "count": 10,
-      "rank": 209,
+      "rank": 210,
       "first_cve_date": "2026-02-25T12:22:18.328Z",
       "last_cve_date": "2026-09-16T07:29:27.076Z",
       "years_active": 6,
@@ -11169,7 +11223,7 @@
       "name": "HDFG",
       "assigner_org_id": "0253b833-3e77-4dfe-9d57-17db1a2f0a74",
       "count": 10,
-      "rank": 210,
+      "rank": 211,
       "first_cve_date": "2026-07-27T15:11:36.949Z",
       "last_cve_date": "2026-09-16T15:16:54.160Z",
       "years_active": 1,
@@ -11213,60 +11267,6 @@
         ],
         [
           "CWE-190",
-          1
-        ]
-      ]
-    },
-    {
-      "name": "PaperCut",
-      "assigner_org_id": "eb41dac7-0af8-4f84-9f6d-0272772514f4",
-      "count": 10,
-      "rank": 211,
-      "first_cve_date": "2026-03-31T00:39:56.135Z",
-      "last_cve_date": "2026-08-28T11:45:25.388Z",
-      "years_active": 4,
-      "first_cve_year": 2023,
-      "last_cve_year": 2026,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {
-        "Medium": 5,
-        "High": 2,
-        "Low": 2,
-        "Critical": 1
-      },
-      "top_cwe_types": {
-        "CWE-208": 1,
-        "CWE-307": 1,
-        "CWE-427": 1,
-        "CWE-20": 1,
-        "CWE-367": 1
-      },
-      "kev_count": 2,
-      "epss_high_count": 0,
-      "epss_elevated_count": 0,
-      "top_cwes": [
-        [
-          "CWE-208",
-          1
-        ],
-        [
-          "CWE-307",
-          1
-        ],
-        [
-          "CWE-427",
-          1
-        ],
-        [
-          "CWE-20",
-          1
-        ],
-        [
-          "CWE-367",
           1
         ]
       ]
