@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:47:20.827560",
+  "generated_at": "2026-09-24T13:43:10.578775",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 378,
@@ -37,8 +37,8 @@
         "CWE-863": 518
       },
       "kev_count": 12,
-      "epss_high_count": 8,
-      "epss_elevated_count": 55,
+      "epss_high_count": 2,
+      "epss_elevated_count": 15,
       "top_cwes": [
         [
           "CWE-79",
@@ -90,8 +90,8 @@
         "CWE-1341": 5
       },
       "kev_count": 3,
-      "epss_high_count": 3,
-      "epss_elevated_count": 3,
+      "epss_high_count": 0,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-825",
@@ -118,10 +118,10 @@
     {
       "name": "VulnCheck",
       "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-      "count": 6382,
+      "count": 6384,
       "rank": 3,
       "first_cve_date": "2026-01-03T21:18:51.053Z",
-      "last_cve_date": "2026-09-24T01:53:04.486Z",
+      "last_cve_date": "2026-09-24T13:32:32.185Z",
       "years_active": 4,
       "first_cve_year": 2023,
       "last_cve_year": 2026,
@@ -131,7 +131,7 @@
         "Vendor"
       ],
       "severity_distribution": {
-        "Critical": 939,
+        "Critical": 941,
         "Medium": 2008,
         "High": 3368,
         "Low": 67
@@ -139,13 +139,13 @@
       "top_cwe_types": {
         "CWE-79": 675,
         "CWE-89": 463,
-        "CWE-862": 348,
+        "CWE-862": 349,
         "CWE-22": 334,
         "CWE-863": 257
       },
       "kev_count": 6,
-      "epss_high_count": 6,
-      "epss_elevated_count": 23,
+      "epss_high_count": 4,
+      "epss_elevated_count": 16,
       "top_cwes": [
         [
           "CWE-79",
@@ -157,7 +157,7 @@
         ],
         [
           "CWE-862",
-          348
+          349
         ],
         [
           "CWE-22",
@@ -199,7 +199,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 0,
-      "epss_elevated_count": 42,
+      "epss_elevated_count": 19,
       "top_cwes": [
         [
           "CWE-74",
@@ -293,25 +293,25 @@
         "Program"
       ],
       "severity_distribution": {
-        "Medium": 1031,
+        "Medium": 1033,
         "High": 1263,
-        "Critical": 748,
+        "Critical": 751,
         "Low": 173
       },
       "top_cwe_types": {
-        "CWE-79": 317,
+        "CWE-79": 318,
         "CWE-89": 263,
         "CWE-284": 261,
         "CWE-121": 183,
-        "CWE-94": 139
+        "CWE-94": 141
       },
       "kev_count": 8,
-      "epss_high_count": 2,
-      "epss_elevated_count": 14,
+      "epss_high_count": 1,
+      "epss_elevated_count": 9,
       "top_cwes": [
         [
           "CWE-79",
-          317
+          318
         ],
         [
           "CWE-89",
@@ -327,7 +327,7 @@
         ],
         [
           "CWE-94",
-          139
+          141
         ]
       ]
     },
@@ -361,7 +361,7 @@
       },
       "kev_count": 3,
       "epss_high_count": 1,
-      "epss_elevated_count": 3,
+      "epss_elevated_count": 1,
       "top_cwes": [
         [
           "CWE-284",
@@ -415,7 +415,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 1,
-      "epss_elevated_count": 12,
+      "epss_elevated_count": 6,
       "top_cwes": [
         [
           "CWE-79",
@@ -468,8 +468,8 @@
         "CWE-190": 97
       },
       "kev_count": 25,
-      "epss_high_count": 11,
-      "epss_elevated_count": 29,
+      "epss_high_count": 1,
+      "epss_elevated_count": 12,
       "top_cwes": [
         [
           "CWE-122",
@@ -522,8 +522,8 @@
         "CWE-346": 121
       },
       "kev_count": 7,
-      "epss_high_count": 0,
-      "epss_elevated_count": 1,
+      "epss_high_count": 1,
+      "epss_elevated_count": 3,
       "top_cwes": [
         [
           "CWE-416",
@@ -576,8 +576,8 @@
         "CWE-287": 88
       },
       "kev_count": 2,
-      "epss_high_count": 2,
-      "epss_elevated_count": 2,
+      "epss_high_count": 0,
+      "epss_elevated_count": 1,
       "top_cwes": [
         [
           "CWE-79",
@@ -630,7 +630,7 @@
         "CWE-918": 42
       },
       "kev_count": 1,
-      "epss_high_count": 1,
+      "epss_high_count": 0,
       "epss_elevated_count": 1,
       "top_cwes": [
         [
@@ -658,10 +658,10 @@
     {
       "name": "redhat",
       "assigner_org_id": "53f830b8-0a3f-465b-8143-3b8a9948e749",
-      "count": 1001,
+      "count": 1003,
       "rank": 13,
       "first_cve_date": "2026-01-07T16:04:22.155Z",
-      "last_cve_date": "2026-09-24T12:25:11.735Z",
+      "last_cve_date": "2026-09-24T13:26:56.782Z",
       "years_active": 22,
       "first_cve_year": 2005,
       "last_cve_year": 2026,
@@ -671,7 +671,7 @@
         "Vendor"
       ],
       "severity_distribution": {
-        "High": 371,
+        "High": 373,
         "Medium": 505,
         "Low": 71,
         "Critical": 54
@@ -685,7 +685,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 0,
-      "epss_elevated_count": 2,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-125",
@@ -738,8 +738,8 @@
         "CWE-400": 33
       },
       "kev_count": 2,
-      "epss_high_count": 2,
-      "epss_elevated_count": 10,
+      "epss_high_count": 0,
+      "epss_elevated_count": 6,
       "top_cwes": [
         [
           "CWE-20",
@@ -793,7 +793,7 @@
       },
       "kev_count": 3,
       "epss_high_count": 0,
-      "epss_elevated_count": 8,
+      "epss_elevated_count": 1,
       "top_cwes": [
         [
           "CWE-79",
@@ -847,7 +847,7 @@
       },
       "kev_count": 2,
       "epss_high_count": 0,
-      "epss_elevated_count": 1,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-284",
@@ -1008,7 +1008,7 @@
       },
       "kev_count": 16,
       "epss_high_count": 5,
-      "epss_elevated_count": 13,
+      "epss_elevated_count": 14,
       "top_cwes": [
         [
           "CWE-79",
@@ -1115,8 +1115,8 @@
         "CWE-122": 21
       },
       "kev_count": 1,
-      "epss_high_count": 0,
-      "epss_elevated_count": 0,
+      "epss_high_count": 1,
+      "epss_elevated_count": 1,
       "top_cwes": [
         [
           "CWE-862",
@@ -1141,66 +1141,12 @@
       ]
     },
     {
-      "name": "Joomla",
-      "assigner_org_id": "6ff30186-7fb7-4ad9-be33-533e7b05e586",
-      "count": 302,
-      "rank": 22,
-      "first_cve_date": "2026-01-06T16:01:15.123Z",
-      "last_cve_date": "2026-09-23T18:43:32.107Z",
-      "years_active": 7,
-      "first_cve_year": 2020,
-      "last_cve_year": 2026,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {
-        "Medium": 126,
-        "High": 98,
-        "Critical": 77,
-        "Low": 1
-      },
-      "top_cwe_types": {
-        "CWE-284": 71,
-        "CWE-79": 65,
-        "CWE-89": 31,
-        "CWE-22": 27,
-        "CWE-352": 23
-      },
-      "kev_count": 5,
-      "epss_high_count": 1,
-      "epss_elevated_count": 5,
-      "top_cwes": [
-        [
-          "CWE-284",
-          71
-        ],
-        [
-          "CWE-79",
-          65
-        ],
-        [
-          "CWE-89",
-          31
-        ],
-        [
-          "CWE-22",
-          27
-        ],
-        [
-          "CWE-352",
-          23
-        ]
-      ]
-    },
-    {
       "name": "EEF",
       "assigner_org_id": "6b3ad84c-e1a6-4bf7-a703-f496b71e49db",
-      "count": 302,
-      "rank": 23,
+      "count": 303,
+      "rank": 22,
       "first_cve_date": "2026-01-19T14:22:46.770Z",
-      "last_cve_date": "2026-09-22T15:51:57.998Z",
+      "last_cve_date": "2026-09-24T13:20:52.974Z",
       "years_active": 2,
       "first_cve_year": 2025,
       "last_cve_year": 2026,
@@ -1212,7 +1158,7 @@
       "severity_distribution": {
         "High": 121,
         "Low": 58,
-        "Critical": 18,
+        "Critical": 19,
         "Medium": 105
       },
       "top_cwe_types": {
@@ -1249,10 +1195,118 @@
       ]
     },
     {
+      "name": "Joomla",
+      "assigner_org_id": "6ff30186-7fb7-4ad9-be33-533e7b05e586",
+      "count": 302,
+      "rank": 23,
+      "first_cve_date": "2026-01-06T16:01:15.123Z",
+      "last_cve_date": "2026-09-23T18:43:32.107Z",
+      "years_active": 7,
+      "first_cve_year": 2020,
+      "last_cve_year": 2026,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {
+        "Medium": 126,
+        "High": 98,
+        "Critical": 77,
+        "Low": 1
+      },
+      "top_cwe_types": {
+        "CWE-284": 71,
+        "CWE-79": 65,
+        "CWE-89": 31,
+        "CWE-22": 27,
+        "CWE-352": 23
+      },
+      "kev_count": 5,
+      "epss_high_count": 0,
+      "epss_elevated_count": 5,
+      "top_cwes": [
+        [
+          "CWE-284",
+          71
+        ],
+        [
+          "CWE-79",
+          65
+        ],
+        [
+          "CWE-89",
+          31
+        ],
+        [
+          "CWE-22",
+          27
+        ],
+        [
+          "CWE-352",
+          23
+        ]
+      ]
+    },
+    {
+      "name": "TR-CERT",
+      "assigner_org_id": "ca940d4e-fea4-4aa2-9a58-591a58b1ce21",
+      "count": 287,
+      "rank": 24,
+      "first_cve_date": "2026-01-22T09:10:16.989Z",
+      "last_cve_date": "2026-09-24T12:49:44.331Z",
+      "years_active": 6,
+      "first_cve_year": 2021,
+      "last_cve_year": 2026,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "CERT"
+      ],
+      "severity_distribution": {
+        "Medium": 94,
+        "High": 120,
+        "Critical": 70,
+        "Low": 3
+      },
+      "top_cwe_types": {
+        "CWE-79": 57,
+        "CWE-89": 38,
+        "CWE-639": 27,
+        "CWE-306": 16,
+        "CWE-862": 16
+      },
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "epss_elevated_count": 0,
+      "top_cwes": [
+        [
+          "CWE-79",
+          57
+        ],
+        [
+          "CWE-89",
+          38
+        ],
+        [
+          "CWE-639",
+          27
+        ],
+        [
+          "CWE-306",
+          16
+        ],
+        [
+          "CWE-862",
+          16
+        ]
+      ]
+    },
+    {
       "name": "CPANSec",
       "assigner_org_id": "9b29abf9-4ab0-4765-b253-1875cd9b441e",
       "count": 286,
-      "rank": 24,
+      "rank": 25,
       "first_cve_date": "2026-01-06T00:22:50.114Z",
       "last_cve_date": "2026-09-22T18:21:23.728Z",
       "years_active": 2,
@@ -1303,60 +1357,6 @@
       ]
     },
     {
-      "name": "TR-CERT",
-      "assigner_org_id": "ca940d4e-fea4-4aa2-9a58-591a58b1ce21",
-      "count": 285,
-      "rank": 25,
-      "first_cve_date": "2026-01-22T09:10:16.989Z",
-      "last_cve_date": "2026-09-24T11:57:14.062Z",
-      "years_active": 6,
-      "first_cve_year": 2021,
-      "last_cve_year": 2026,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "CERT"
-      ],
-      "severity_distribution": {
-        "Medium": 93,
-        "High": 119,
-        "Critical": 70,
-        "Low": 3
-      },
-      "top_cwe_types": {
-        "CWE-79": 57,
-        "CWE-89": 38,
-        "CWE-639": 27,
-        "CWE-306": 16,
-        "CWE-862": 16
-      },
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "epss_elevated_count": 0,
-      "top_cwes": [
-        [
-          "CWE-79",
-          57
-        ],
-        [
-          "CWE-89",
-          38
-        ],
-        [
-          "CWE-639",
-          27
-        ],
-        [
-          "CWE-306",
-          16
-        ],
-        [
-          "CWE-862",
-          16
-        ]
-      ]
-    },
-    {
       "name": "vmware",
       "assigner_org_id": "dcf2e128-44bd-42ed-91e8-88f912c1401d",
       "count": 277,
@@ -1385,8 +1385,8 @@
         "CWE-79": 12
       },
       "kev_count": 2,
-      "epss_high_count": 1,
-      "epss_elevated_count": 2,
+      "epss_high_count": 0,
+      "epss_elevated_count": 1,
       "top_cwes": [
         [
           "CWE-770",
@@ -1708,8 +1708,8 @@
         "CWE-79": 12
       },
       "kev_count": 3,
-      "epss_high_count": 3,
-      "epss_elevated_count": 6,
+      "epss_high_count": 0,
+      "epss_elevated_count": 4,
       "top_cwes": [
         [
           "CWE-284",
@@ -2459,7 +2459,7 @@
         "CWE-915": 9
       },
       "kev_count": 1,
-      "epss_high_count": 1,
+      "epss_high_count": 0,
       "epss_elevated_count": 1,
       "top_cwes": [
         [
@@ -2834,8 +2834,8 @@
         "CWE-22": 9
       },
       "kev_count": 0,
-      "epss_high_count": 1,
-      "epss_elevated_count": 1,
+      "epss_high_count": 0,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-862",
@@ -3103,8 +3103,8 @@
         "CWE-863": 6
       },
       "kev_count": 1,
-      "epss_high_count": 1,
-      "epss_elevated_count": 2,
+      "epss_high_count": 0,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-862",
@@ -3265,8 +3265,8 @@
         "CWE-284": 7
       },
       "kev_count": 7,
-      "epss_high_count": 5,
-      "epss_elevated_count": 8,
+      "epss_high_count": 3,
+      "epss_elevated_count": 6,
       "top_cwes": [
         [
           "CWE-89",
@@ -3427,7 +3427,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 0,
-      "epss_elevated_count": 2,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-20",
@@ -3858,8 +3858,8 @@
         "CWE-78": 5
       },
       "kev_count": 1,
-      "epss_high_count": 3,
-      "epss_elevated_count": 7,
+      "epss_high_count": 1,
+      "epss_elevated_count": 3,
       "top_cwes": [
         [
           "CWE-22",
@@ -3966,8 +3966,8 @@
         "CWE-125": 4
       },
       "kev_count": 1,
-      "epss_high_count": 1,
-      "epss_elevated_count": 3,
+      "epss_high_count": 0,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-122",
@@ -4073,7 +4073,7 @@
         "CWE-862": 4
       },
       "kev_count": 1,
-      "epss_high_count": 1,
+      "epss_high_count": 0,
       "epss_elevated_count": 1,
       "top_cwes": [
         [
@@ -4501,7 +4501,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 0,
-      "epss_elevated_count": 2,
+      "epss_elevated_count": 1,
       "top_cwes": [
         [
           "CWE-22",
@@ -4875,7 +4875,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 0,
-      "epss_elevated_count": 1,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-78",
@@ -5382,10 +5382,64 @@
       ]
     },
     {
+      "name": "rapid7",
+      "assigner_org_id": "9974b330-7714-4307-a722-5648477acda7",
+      "count": 50,
+      "rank": 101,
+      "first_cve_date": "2026-02-03T14:54:12.073Z",
+      "last_cve_date": "2026-09-24T12:52:51.864Z",
+      "years_active": 11,
+      "first_cve_year": 2016,
+      "last_cve_year": 2026,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Security Researcher"
+      ],
+      "severity_distribution": {
+        "Medium": 23,
+        "Critical": 5,
+        "High": 20,
+        "Low": 2
+      },
+      "top_cwe_types": {
+        "CWE-78": 9,
+        "CWE-863": 5,
+        "CWE-22": 4,
+        "CWE-94": 3,
+        "CWE-862": 3
+      },
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "epss_elevated_count": 1,
+      "top_cwes": [
+        [
+          "CWE-78",
+          9
+        ],
+        [
+          "CWE-863",
+          5
+        ],
+        [
+          "CWE-22",
+          4
+        ],
+        [
+          "CWE-94",
+          3
+        ],
+        [
+          "CWE-862",
+          3
+        ]
+      ]
+    },
+    {
       "name": "synology",
       "assigner_org_id": "db201096-a0cc-46c7-9a55-61d9e221bf01",
       "count": 49,
-      "rank": 101,
+      "rank": 102,
       "first_cve_date": "2026-02-24T02:31:20.298Z",
       "last_cve_date": "2026-09-18T08:29:33.365Z",
       "years_active": 10,
@@ -5439,7 +5493,7 @@
       "name": "openssl",
       "assigner_org_id": "3a12439a-ef3a-4c79-92e6-6081a721f1e5",
       "count": 49,
-      "rank": 102,
+      "rank": 103,
       "first_cve_date": "2026-01-27T15:59:41.681Z",
       "last_cve_date": "2026-08-25T13:00:25.067Z",
       "years_active": 10,
@@ -5464,7 +5518,7 @@
         "CWE-125": 4
       },
       "kev_count": 0,
-      "epss_high_count": 0,
+      "epss_high_count": 1,
       "epss_elevated_count": 1,
       "top_cwes": [
         [
@@ -5486,60 +5540,6 @@
         [
           "CWE-125",
           4
-        ]
-      ]
-    },
-    {
-      "name": "rapid7",
-      "assigner_org_id": "9974b330-7714-4307-a722-5648477acda7",
-      "count": 49,
-      "rank": 103,
-      "first_cve_date": "2026-02-03T14:54:12.073Z",
-      "last_cve_date": "2026-09-10T03:00:00.939Z",
-      "years_active": 11,
-      "first_cve_year": 2016,
-      "last_cve_year": 2026,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Security Researcher"
-      ],
-      "severity_distribution": {
-        "Medium": 23,
-        "Critical": 4,
-        "High": 20,
-        "Low": 2
-      },
-      "top_cwe_types": {
-        "CWE-78": 9,
-        "CWE-863": 5,
-        "CWE-22": 4,
-        "CWE-94": 3,
-        "CWE-862": 3
-      },
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "epss_elevated_count": 1,
-      "top_cwes": [
-        [
-          "CWE-78",
-          9
-        ],
-        [
-          "CWE-863",
-          5
-        ],
-        [
-          "CWE-22",
-          4
-        ],
-        [
-          "CWE-94",
-          3
-        ],
-        [
-          "CWE-862",
-          3
         ]
       ]
     },
@@ -6325,7 +6325,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 0,
-      "epss_elevated_count": 1,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-79",
@@ -6483,7 +6483,7 @@
       },
       "kev_count": 5,
       "epss_high_count": 5,
-      "epss_elevated_count": 8,
+      "epss_elevated_count": 6,
       "top_cwes": [
         [
           "CWE-502",
@@ -6695,7 +6695,7 @@
       },
       "kev_count": 3,
       "epss_high_count": 4,
-      "epss_elevated_count": 6,
+      "epss_elevated_count": 5,
       "top_cwes": [
         [
           "CWE-639",
@@ -6748,7 +6748,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 0,
-      "epss_elevated_count": 1,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-918",
@@ -6801,7 +6801,7 @@
         "CWE-78": 2
       },
       "kev_count": 4,
-      "epss_high_count": 1,
+      "epss_high_count": 0,
       "epss_elevated_count": 2,
       "top_cwes": [
         [
@@ -8598,7 +8598,7 @@
       },
       "kev_count": 1,
       "epss_high_count": 0,
-      "epss_elevated_count": 1,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-346",
@@ -8704,8 +8704,8 @@
         "CWE-89": 2
       },
       "kev_count": 5,
-      "epss_high_count": 2,
-      "epss_elevated_count": 3,
+      "epss_high_count": 1,
+      "epss_elevated_count": 1,
       "top_cwes": [
         [
           "CWE-287",
@@ -9238,7 +9238,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 0,
-      "epss_elevated_count": 1,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-639",
@@ -11142,8 +11142,8 @@
         "CWE-288": 1
       },
       "kev_count": 3,
-      "epss_high_count": 1,
-      "epss_elevated_count": 2,
+      "epss_high_count": 0,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-125",
@@ -12753,8 +12753,8 @@
         "CWE-693": 1
       },
       "kev_count": 0,
-      "epss_high_count": 2,
-      "epss_elevated_count": 2,
+      "epss_high_count": 1,
+      "epss_elevated_count": 1,
       "top_cwes": [
         [
           "CWE-94",
@@ -13901,7 +13901,7 @@
         "CWE-96": 1
       },
       "kev_count": 3,
-      "epss_high_count": 1,
+      "epss_high_count": 0,
       "epss_elevated_count": 2,
       "top_cwes": [
         [
@@ -14952,7 +14952,7 @@
       },
       "kev_count": 0,
       "epss_high_count": 0,
-      "epss_elevated_count": 1,
+      "epss_elevated_count": 0,
       "top_cwes": [
         [
           "CWE-20",
