@@ -60,15 +60,15 @@
       "rank": 52,
       "active_cna_count": 348,
       "percentile": 85.3,
-      "total_cves": 936,
-      "recent_cves": 936,
+      "total_cves": 934,
+      "recent_cves": 934,
       "is_active": true,
       "scores": {
         "overall_average_score": 89.41,
         "foundational_completeness": 100.0,
-        "root_cause_analysis": 97.65,
-        "software_identification": 97.65,
-        "severity_and_impact": 99.47,
+        "root_cause_analysis": 97.64,
+        "software_identification": 97.64,
+        "severity_and_impact": 99.46,
         "patchinfo": 0.75
       },
       "trend": {
@@ -104,16 +104,16 @@
       "rank": 53,
       "active_cna_count": 348,
       "percentile": 85.1,
-      "total_cves": 65,
-      "recent_cves": 65,
+      "total_cves": 77,
+      "recent_cves": 77,
       "is_active": true,
       "scores": {
-        "overall_average_score": 89.38,
+        "overall_average_score": 89.35,
         "foundational_completeness": 100.0,
         "root_cause_analysis": 100.0,
         "software_identification": 0.0,
         "severity_and_impact": 100.0,
-        "patchinfo": 93.85
+        "patchinfo": 93.51
       },
       "trend": {
         "direction": "steady",
@@ -272,95 +272,6 @@
       ]
     },
     {
-      "shortName": "Zohocorp",
-      "detailFile": "Zohocorp__CNA-2023-0081.json",
-      "organizationName": "Zohocorp",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor"
-      ],
-      "rank": 57,
-      "active_cna_count": 348,
-      "percentile": 83.9,
-      "total_cves": 52,
-      "recent_cves": 52,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 89.04,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 96.15,
-        "software_identification": 96.15,
-        "severity_and_impact": 100.0,
-        "patchinfo": 0.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "ManageEngine, Zoho, and Zakya branded on-premise products only.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://www.manageengine.com/security/advisory/"
-        }
-      ],
-      "officialCnaID": "CNA-2023-0081",
-      "country": "India",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://bugbounty.zohocorp.com/bb/info"
-        }
-      ]
-    },
-    {
-      "shortName": "TPLink",
-      "detailFile": "TPLink__CNA-2025-0017.json",
-      "organizationName": "TP-Link Systems Inc.",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor",
-        "Hosted Service"
-      ],
-      "rank": 58,
-      "active_cna_count": 348,
-      "percentile": 83.6,
-      "total_cves": 93,
-      "recent_cves": 93,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 89.03,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 0.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 90.32
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "TP-Link issues only.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://www.tp-link.com/us/press/security-advisory/"
-        }
-      ],
-      "officialCnaID": "CNA-2025-0017",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.tp-link.com/us/press/security-advisory/"
-        }
-      ]
-    },
-    {
       "shortName": "INCIBE",
       "detailFile": "INCIBE__CNA-2020-0002.json",
       "organizationName": "Spanish National Cybersecurity Institute, S.A. (INCIBE)",
@@ -368,9 +279,9 @@
       "cnaTypes": [
         "CERT"
       ],
-      "rank": 58,
+      "rank": 57,
       "active_cna_count": 348,
-      "percentile": 83.6,
+      "percentile": 83.9,
       "total_cves": 108,
       "recent_cves": 108,
       "is_active": true,
@@ -414,6 +325,51 @@
       ]
     },
     {
+      "shortName": "TPLink",
+      "detailFile": "TPLink__CNA-2025-0017.json",
+      "organizationName": "TP-Link Systems Inc.",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor",
+        "Hosted Service"
+      ],
+      "rank": 57,
+      "active_cna_count": 348,
+      "percentile": 83.9,
+      "total_cves": 93,
+      "recent_cves": 93,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 89.03,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 0.0,
+        "severity_and_impact": 100.0,
+        "patchinfo": 90.32
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "TP-Link issues only.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://www.tp-link.com/us/press/security-advisory/"
+        }
+      ],
+      "officialCnaID": "CNA-2025-0017",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.tp-link.com/us/press/security-advisory/"
+        }
+      ]
+    },
+    {
       "shortName": "zephyr",
       "detailFile": "zephyr__CNA-2017-0032.json",
       "organizationName": "Zephyr Project",
@@ -422,9 +378,9 @@
         "Vendor",
         "Open Source"
       ],
-      "rank": 60,
+      "rank": 59,
       "active_cna_count": 348,
-      "percentile": 83.0,
+      "percentile": 83.3,
       "total_cves": 147,
       "recent_cves": 147,
       "is_active": true,
@@ -455,6 +411,50 @@
           "label": "Policy",
           "language": "",
           "url": "https://docs.zephyrproject.org/latest/security/security-overview.html#security-vulnerability-reporting"
+        }
+      ]
+    },
+    {
+      "shortName": "Zohocorp",
+      "detailFile": "Zohocorp__CNA-2023-0081.json",
+      "organizationName": "Zohocorp",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor"
+      ],
+      "rank": 60,
+      "active_cna_count": 348,
+      "percentile": 83.0,
+      "total_cves": 44,
+      "recent_cves": 44,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 88.86,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 95.45,
+        "software_identification": 95.45,
+        "severity_and_impact": 100.0,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "ManageEngine, Zoho, and Zakya branded on-premise products only.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://www.manageengine.com/security/advisory/"
+        }
+      ],
+      "officialCnaID": "CNA-2023-0081",
+      "country": "India",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://bugbounty.zohocorp.com/bb/info"
         }
       ]
     },
@@ -503,50 +503,6 @@
       ]
     },
     {
-      "shortName": "harborist",
-      "detailFile": "harborist__CNA-2025-0027.json",
-      "organizationName": "Harborist",
-      "cnaType": "Open Source",
-      "cnaTypes": [
-        "Open Source"
-      ],
-      "rank": 62,
-      "active_cna_count": 348,
-      "percentile": 82.5,
-      "total_cves": 10,
-      "recent_cves": 10,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 88.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 0.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 80.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "All projects listed under <a href='https://www.npmjs.com/~ljharb' target='_blank'>https://www.npmjs.com/~ljharb</a>.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://github.com/harborist/advisories"
-        }
-      ],
-      "officialCnaID": "CNA-2025-0027",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://github.com/harborist/.github/blob/main/DISCLOSURE_POLICY.md"
-        }
-      ]
-    },
-    {
       "shortName": "OpenNMS",
       "detailFile": "OpenNMS__CNA-2022-0029.json",
       "organizationName": "The OpenNMS Group",
@@ -589,6 +545,50 @@
           "label": "Policy",
           "language": "",
           "url": "https://www.opennms.com/security/"
+        }
+      ]
+    },
+    {
+      "shortName": "harborist",
+      "detailFile": "harborist__CNA-2025-0027.json",
+      "organizationName": "Harborist",
+      "cnaType": "Open Source",
+      "cnaTypes": [
+        "Open Source"
+      ],
+      "rank": 62,
+      "active_cna_count": 348,
+      "percentile": 82.5,
+      "total_cves": 10,
+      "recent_cves": 10,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 88.0,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 0.0,
+        "severity_and_impact": 100.0,
+        "patchinfo": 80.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "All projects listed under <a href='https://www.npmjs.com/~ljharb' target='_blank'>https://www.npmjs.com/~ljharb</a>.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://github.com/harborist/advisories"
+        }
+      ],
+      "officialCnaID": "CNA-2025-0027",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://github.com/harborist/.github/blob/main/DISCLOSURE_POLICY.md"
         }
       ]
     },
@@ -1142,6 +1142,139 @@
       ]
     },
     {
+      "shortName": "PSF",
+      "detailFile": "PSF__CNA-2023-0053.json",
+      "organizationName": "Python Software Foundation",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor",
+        "Open Source"
+      ],
+      "rank": 76,
+      "active_cna_count": 348,
+      "percentile": 78.4,
+      "total_cves": 35,
+      "recent_cves": 35,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 85.0,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 71.43,
+        "software_identification": 0.0,
+        "severity_and_impact": 97.14,
+        "patchinfo": 97.14
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "Only supported and end-of-life Python versions available at <a href='https://python.org/downloads' target='_blank'>https://python.org/downloads</a> and pip versions available at <a href='https://pypi.org/project/pip' target='_blank'>https://pypi.org/project/pip</a>, Pallets projects available at <a href='https://github.com/pallets' target='_blank'>https://github.com/pallets</a> (such as Flask, Jinja, Click, MarkupSafe, Werkzeug, and ItsDangerous), and excluding distributions of Python, pip, and Pallets projects maintained by third-party redistributors.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://mail.python.org/archives/list/security-announce@python.org/latest"
+        }
+      ],
+      "officialCnaID": "CNA-2023-0053",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.python.org/cve-numbering-authority/"
+        }
+      ]
+    },
+    {
+      "shortName": "Kong",
+      "detailFile": "Kong__CNA-2024-0042.json",
+      "organizationName": "Kong Inc.",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor"
+      ],
+      "rank": 76,
+      "active_cna_count": 348,
+      "percentile": 78.4,
+      "total_cves": 16,
+      "recent_cves": 16,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 85.0,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 0.0,
+        "severity_and_impact": 100.0,
+        "patchinfo": 50.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "Kong products; Kong Konnect, Kong Enterprise, Kong Mesh, and Kong Insomnia, including Kong Opensource; Kong Gateway, Kuma, Insomnia.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://konghq.com/compliance/psa"
+        }
+      ],
+      "officialCnaID": "CNA-2024-0042",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://konghq.com/compliance/bug-bounty"
+        }
+      ]
+    },
+    {
+      "shortName": "Toreon",
+      "detailFile": "Toreon__CNA-2025-0031.json",
+      "organizationName": "Toreon",
+      "cnaType": "Researcher",
+      "cnaTypes": [
+        "Researcher"
+      ],
+      "rank": 76,
+      "active_cna_count": 348,
+      "percentile": 78.4,
+      "total_cves": 2,
+      "recent_cves": 2,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 85.0,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 0.0,
+        "severity_and_impact": 100.0,
+        "patchinfo": 50.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "Vulnerabilities discovered by or reported to Toreon that are not in another CNA’s scope.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://www.toreon.com/news/"
+        }
+      ],
+      "officialCnaID": "CNA-2025-0031",
+      "country": "Belgium",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.toreon.com/cna-disclosure-policy/"
+        }
+      ]
+    },
+    {
       "shortName": "SCHUTZWERK",
       "detailFile": "SCHUTZWERK__CNA-2025-0024.json",
       "organizationName": "SCHUTZWERK GmbH",
@@ -1227,51 +1360,6 @@
           "label": "Policy",
           "language": "",
           "url": "https://kubernetes.io/security"
-        }
-      ]
-    },
-    {
-      "shortName": "PSF",
-      "detailFile": "PSF__CNA-2023-0053.json",
-      "organizationName": "Python Software Foundation",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor",
-        "Open Source"
-      ],
-      "rank": 76,
-      "active_cna_count": 348,
-      "percentile": 78.4,
-      "total_cves": 35,
-      "recent_cves": 35,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 85.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 71.43,
-        "software_identification": 0.0,
-        "severity_and_impact": 97.14,
-        "patchinfo": 97.14
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "Only supported and end-of-life Python versions available at <a href='https://python.org/downloads' target='_blank'>https://python.org/downloads</a> and pip versions available at <a href='https://pypi.org/project/pip' target='_blank'>https://pypi.org/project/pip</a>, Pallets projects available at <a href='https://github.com/pallets' target='_blank'>https://github.com/pallets</a> (such as Flask, Jinja, Click, MarkupSafe, Werkzeug, and ItsDangerous), and excluding distributions of Python, pip, and Pallets projects maintained by third-party redistributors.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://mail.python.org/archives/list/security-announce@python.org/latest"
-        }
-      ],
-      "officialCnaID": "CNA-2023-0053",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.python.org/cve-numbering-authority/"
         }
       ]
     },
@@ -1366,94 +1454,6 @@
           "label": "Policy",
           "language": "",
           "url": "https://www.crowdstrike.com/report-a-security-bug/"
-        }
-      ]
-    },
-    {
-      "shortName": "Toreon",
-      "detailFile": "Toreon__CNA-2025-0031.json",
-      "organizationName": "Toreon",
-      "cnaType": "Researcher",
-      "cnaTypes": [
-        "Researcher"
-      ],
-      "rank": 76,
-      "active_cna_count": 348,
-      "percentile": 78.4,
-      "total_cves": 2,
-      "recent_cves": 2,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 85.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 0.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 50.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "Vulnerabilities discovered by or reported to Toreon that are not in another CNA’s scope.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://www.toreon.com/news/"
-        }
-      ],
-      "officialCnaID": "CNA-2025-0031",
-      "country": "Belgium",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.toreon.com/cna-disclosure-policy/"
-        }
-      ]
-    },
-    {
-      "shortName": "Kong",
-      "detailFile": "Kong__CNA-2024-0042.json",
-      "organizationName": "Kong Inc.",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor"
-      ],
-      "rank": 76,
-      "active_cna_count": 348,
-      "percentile": 78.4,
-      "total_cves": 16,
-      "recent_cves": 16,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 85.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 0.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 50.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "Kong products; Kong Konnect, Kong Enterprise, Kong Mesh, and Kong Insomnia, including Kong Opensource; Kong Gateway, Kuma, Insomnia.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://konghq.com/compliance/psa"
-        }
-      ],
-      "officialCnaID": "CNA-2024-0042",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://konghq.com/compliance/bug-bounty"
         }
       ]
     },
@@ -1742,50 +1742,6 @@
       ]
     },
     {
-      "shortName": "Rockwell",
-      "detailFile": "Rockwell__CNA-2022-0028.json",
-      "organizationName": "Rockwell Automation",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor"
-      ],
-      "rank": 89,
-      "active_cna_count": 348,
-      "percentile": 74.7,
-      "total_cves": 42,
-      "recent_cves": 42,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 83.33,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 95.24,
-        "software_identification": 40.48,
-        "severity_and_impact": 100.0,
-        "patchinfo": 0.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "All Rockwell Automation products.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html"
-        }
-      ],
-      "officialCnaID": "CNA-2022-0028",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.rockwellautomation.com/en-us/company/about-us/legal-notices/vulnerability-policy.html..html"
-        }
-      ]
-    },
-    {
       "shortName": "forcepoint",
       "detailFile": "forcepoint__CNA-2017-0033.json",
       "organizationName": "Forcepoint",
@@ -1826,6 +1782,50 @@
           "label": "Policy",
           "language": "",
           "url": "https://www.forcepoint.com/company/innovation/product-security-report-issue"
+        }
+      ]
+    },
+    {
+      "shortName": "Rockwell",
+      "detailFile": "Rockwell__CNA-2022-0028.json",
+      "organizationName": "Rockwell Automation",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor"
+      ],
+      "rank": 89,
+      "active_cna_count": 348,
+      "percentile": 74.7,
+      "total_cves": 42,
+      "recent_cves": 42,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 83.33,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 95.24,
+        "software_identification": 40.48,
+        "severity_and_impact": 100.0,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "All Rockwell Automation products.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html"
+        }
+      ],
+      "officialCnaID": "CNA-2022-0028",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.rockwellautomation.com/en-us/company/about-us/legal-notices/vulnerability-policy.html..html"
         }
       ]
     },
@@ -1923,6 +1923,50 @@
       ]
     },
     {
+      "shortName": "M-Files",
+      "detailFile": "M-Files__CNA-2021-0038.json",
+      "organizationName": "M-Files Corporation",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor"
+      ],
+      "rank": 93,
+      "active_cna_count": 348,
+      "percentile": 73.6,
+      "total_cves": 4,
+      "recent_cves": 4,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 82.5,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 25.0,
+        "severity_and_impact": 100.0,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "M-Files and Hubshare products.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://empower.m-files.com/security-advisories"
+        }
+      ],
+      "officialCnaID": "CNA-2021-0038",
+      "country": "Finland",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "English",
+          "url": "https://www.m-files.com/company/trust-center/vulnerability-disclosure/"
+        }
+      ]
+    },
+    {
       "shortName": "Perforce",
       "detailFile": "Perforce__CNA-2016-0023.json",
       "organizationName": "Perforce",
@@ -1964,50 +2008,6 @@
           "label": "Policy",
           "language": "",
           "url": "https://www.perforce.com/company/security-compliance-policies"
-        }
-      ]
-    },
-    {
-      "shortName": "M-Files",
-      "detailFile": "M-Files__CNA-2021-0038.json",
-      "organizationName": "M-Files Corporation",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor"
-      ],
-      "rank": 93,
-      "active_cna_count": 348,
-      "percentile": 73.6,
-      "total_cves": 4,
-      "recent_cves": 4,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 82.5,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 25.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 0.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "M-Files and Hubshare products.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://empower.m-files.com/security-advisories"
-        }
-      ],
-      "officialCnaID": "CNA-2021-0038",
-      "country": "Finland",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "English",
-          "url": "https://www.m-files.com/company/trust-center/vulnerability-disclosure/"
         }
       ]
     },
