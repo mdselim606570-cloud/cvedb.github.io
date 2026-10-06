@@ -42,9 +42,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 110,
-  "active_cna_count": 349,
-  "percentile": 68.8,
+  "rank": 111,
+  "active_cna_count": 350,
+  "percentile": 68.6,
   "cna_scoring": [
     {
       "total_cves": 97,
@@ -276,6 +276,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-11848",
+      "assigningCna": "twcert",
+      "datePublished": "2026-06-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-10071",
       "assigningCna": "twcert",
       "datePublished": "2026-05-29",
@@ -435,19 +448,6 @@
       "cveId": "CVE-2026-19852",
       "assigningCna": "twcert",
       "datePublished": "2026-08-24",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-11848",
-      "assigningCna": "twcert",
-      "datePublished": "2026-06-12",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
