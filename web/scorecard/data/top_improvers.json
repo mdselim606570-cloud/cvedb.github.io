@@ -113,6 +113,34 @@
       "analysis_days": 526
     },
     {
+      "cna_name": "ibm",
+      "total_improvement": 112.73560876209882,
+      "category_improvements": {
+        "root_cause_analysis": {
+          "first_period": 100.0,
+          "last_period": 98.67549668874173,
+          "improvement": -1.324503311258269
+        },
+        "severity_and_impact": {
+          "first_period": 100.0,
+          "last_period": 100.0,
+          "improvement": 0.0
+        },
+        "software_identification": {
+          "first_period": 69.23076923076923,
+          "last_period": 99.33774834437085,
+          "improvement": 30.106979113601625
+        },
+        "patch_information": {
+          "first_period": 15.384615384615385,
+          "last_period": 99.33774834437085,
+          "improvement": 83.95313295975546
+        }
+      },
+      "total_cves_analyzed": 1644,
+      "analysis_days": 190
+    },
+    {
       "cna_name": "Sonatype",
       "total_improvement": 112.5,
       "category_improvements": {
@@ -141,36 +169,8 @@
       "analysis_days": 17
     },
     {
-      "cna_name": "ibm",
-      "total_improvement": 111.97552447552447,
-      "category_improvements": {
-        "root_cause_analysis": {
-          "first_period": 100.0,
-          "last_period": 98.86363636363636,
-          "improvement": -1.1363636363636402
-        },
-        "severity_and_impact": {
-          "first_period": 100.0,
-          "last_period": 100.0,
-          "improvement": 0.0
-        },
-        "software_identification": {
-          "first_period": 69.23076923076923,
-          "last_period": 98.86363636363636,
-          "improvement": 29.632867132867133
-        },
-        "patch_information": {
-          "first_period": 15.384615384615385,
-          "last_period": 98.86363636363636,
-          "improvement": 83.47902097902097
-        }
-      },
-      "total_cves_analyzed": 1551,
-      "analysis_days": 189
-    },
-    {
       "cna_name": "INCIBE",
-      "total_improvement": 102.63157894736841,
+      "total_improvement": 103.03030303030303,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
@@ -184,17 +184,17 @@
         },
         "software_identification": {
           "first_period": 0.0,
-          "last_period": 78.94736842105263,
-          "improvement": 78.94736842105263
+          "last_period": 96.96969696969697,
+          "improvement": 96.96969696969697
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 23.684210526315788,
-          "improvement": 23.684210526315788
+          "last_period": 6.0606060606060606,
+          "improvement": 6.0606060606060606
         }
       },
-      "total_cves_analyzed": 619,
-      "analysis_days": 154
+      "total_cves_analyzed": 621,
+      "analysis_days": 155
     },
     {
       "cna_name": "hackerone",
@@ -221,8 +221,8 @@
           "improvement": 0.0
         }
       },
-      "total_cves_analyzed": 310,
-      "analysis_days": 79
+      "total_cves_analyzed": 311,
+      "analysis_days": 80
     },
     {
       "cna_name": "Deltaww",
@@ -253,7 +253,7 @@
       "analysis_days": 27
     },
     {
-      "cna_name": "ASUS",
+      "cna_name": "zephyr",
       "total_improvement": 100.0,
       "category_improvements": {
         "root_cause_analysis": {
@@ -268,20 +268,20 @@
         },
         "software_identification": {
           "first_period": 0.0,
-          "last_period": 100.0,
-          "improvement": 100.0
+          "last_period": 0.0,
+          "improvement": 0.0
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 0.0,
-          "improvement": 0.0
+          "last_period": 100.0,
+          "improvement": 100.0
         }
       },
-      "total_cves_analyzed": 71,
-      "analysis_days": 30
+      "total_cves_analyzed": 169,
+      "analysis_days": 69
     }
   ],
-  "generated_at": "2026-10-08T02:55:39.880640",
+  "generated_at": "2026-10-09T02:56:22.514379",
   "analysis_criteria": {
     "minimum_cves": 5,
     "top_n_count": 10
