@@ -86,12 +86,12 @@
     },
     {
       "cna_name": "VulDB",
-      "total_improvement": 117.44186046511629,
+      "total_improvement": 117.42424242424242,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
-          "last_period": 98.25581395348838,
-          "improvement": -1.744186046511615
+          "last_period": 98.86363636363636,
+          "improvement": -1.1363636363636402
         },
         "severity_and_impact": {
           "first_period": 100.0,
@@ -105,21 +105,21 @@
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 19.186046511627907,
-          "improvement": 19.186046511627907
+          "last_period": 18.560606060606062,
+          "improvement": 18.560606060606062
         }
       },
-      "total_cves_analyzed": 11377,
-      "analysis_days": 528
+      "total_cves_analyzed": 11471,
+      "analysis_days": 529
     },
     {
       "cna_name": "ibm",
-      "total_improvement": 112.73560876209882,
+      "total_improvement": 113.31207652451175,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
-          "last_period": 98.67549668874173,
-          "improvement": -1.324503311258269
+          "last_period": 98.96373056994818,
+          "improvement": -1.0362694300518172
         },
         "severity_and_impact": {
           "first_period": 100.0,
@@ -128,17 +128,17 @@
         },
         "software_identification": {
           "first_period": 69.23076923076923,
-          "last_period": 99.33774834437085,
-          "improvement": 30.106979113601625
+          "last_period": 99.48186528497409,
+          "improvement": 30.251096054204865
         },
         "patch_information": {
           "first_period": 15.384615384615385,
-          "last_period": 99.33774834437085,
-          "improvement": 83.95313295975546
+          "last_period": 99.48186528497409,
+          "improvement": 84.0972499003587
         }
       },
-      "total_cves_analyzed": 1644,
-      "analysis_days": 190
+      "total_cves_analyzed": 1705,
+      "analysis_days": 191
     },
     {
       "cna_name": "Sonatype",
@@ -281,7 +281,7 @@
       "analysis_days": 27
     }
   ],
-  "generated_at": "2026-10-12T03:00:44.625438",
+  "generated_at": "2026-10-13T02:59:30.965299",
   "analysis_criteria": {
     "minimum_cves": 5,
     "top_n_count": 10
