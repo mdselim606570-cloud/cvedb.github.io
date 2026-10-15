@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "TR-CERT",
-    "total_cves": 264,
-    "total_cves_scored": 264,
+    "total_cves": 266,
+    "total_cves_scored": 266,
     "organizationName": "TR-CERT (Computer Emergency Response Team of the Republic of Türkiye)",
     "scope": "Vulnerability assignment related to its vulnerability coordination role.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 115,
+  "rank": 114,
   "active_cna_count": 353,
-  "percentile": 67.7,
+  "percentile": 68.0,
   "cna_scoring": [
     {
-      "total_cves": 264,
-      "total_cves_scored": 264,
-      "recent_cves_count": 264,
+      "total_cves": 266,
+      "total_cves_scored": 266,
+      "recent_cves_count": 266,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -138,6 +138,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-16741",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-10-14",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-16286",
       "assigningCna": "TR-CERT",
       "datePublished": "2026-08-25",
@@ -167,6 +180,19 @@
       "cveId": "CVE-2026-16287",
       "assigningCna": "TR-CERT",
       "datePublished": "2026-07-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-16740",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-10-14",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1347,58 +1373,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-6792",
-      "assigningCna": "TR-CERT",
-      "datePublished": "2026-07-21",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6509",
-      "assigningCna": "TR-CERT",
-      "datePublished": "2026-07-05",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6280",
-      "assigningCna": "TR-CERT",
-      "datePublished": "2026-07-08",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6371",
-      "assigningCna": "TR-CERT",
-      "datePublished": "2026-07-08",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-75896",
       "assigningCna": "TR-CERT",
       "datePublished": "2026-08-26",
@@ -1753,6 +1727,58 @@
       "cveId": "CVE-2026-11763",
       "assigningCna": "TR-CERT",
       "datePublished": "2026-07-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6792",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-07-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6509",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-07-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6280",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-07-08",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6371",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-07-08",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2972,45 +2998,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-13477",
-      "assigningCna": "TR-CERT",
-      "datePublished": "2026-05-21",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-13479",
-      "assigningCna": "TR-CERT",
-      "datePublished": "2026-05-21",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-12008",
-      "assigningCna": "TR-CERT",
-      "datePublished": "2026-05-14",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-4104",
       "assigningCna": "TR-CERT",
       "datePublished": "2026-06-04",
@@ -3378,6 +3365,45 @@
       "cveId": "CVE-2026-89290",
       "assigningCna": "TR-CERT",
       "datePublished": "2026-10-08",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-13477",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-05-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-13479",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-05-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-12008",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-05-14",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

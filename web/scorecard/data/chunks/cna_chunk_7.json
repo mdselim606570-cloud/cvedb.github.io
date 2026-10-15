@@ -5,9 +5,9 @@
   "count": 3,
   "items": [
     {
-      "shortName": "apple",
-      "detailFile": "apple__CNA-2009-0002.json",
-      "organizationName": "Apple Inc.",
+      "shortName": "Nokia",
+      "detailFile": "Nokia__CNA-2023-0055.json",
+      "organizationName": "Nokia",
       "cnaType": "Vendor",
       "cnaTypes": [
         "Vendor"
@@ -15,8 +15,8 @@
       "rank": 349,
       "active_cna_count": 353,
       "percentile": 1.4,
-      "total_cves": 617,
-      "recent_cves": 617,
+      "total_cves": 8,
+      "recent_cves": 8,
       "is_active": true,
       "scores": {
         "overall_average_score": 50.0,
@@ -31,20 +31,20 @@
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "Apple issues only.",
+      "scope": "All vulnerabilities in Nokia products.",
       "advisories": [
         {
           "label": "Advisories",
-          "url": "https://support.apple.com/en-us/HT201222"
+          "url": "https://www.nokia.com/about-us/security-and-privacy/product-security-advisory/"
         }
       ],
-      "officialCnaID": "CNA-2009-0002",
-      "country": "USA",
+      "officialCnaID": "CNA-2023-0055",
+      "country": "Finland",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://support.apple.com/en-us/HT201220"
+          "url": "https://www.nokia.com/notices/responsible-disclosure/"
         }
       ]
     },
@@ -94,18 +94,18 @@
       ]
     },
     {
-      "shortName": "jenkins",
-      "detailFile": "jenkins__CNA-2018-0015.json",
-      "organizationName": "Jenkins Project",
-      "cnaType": "Open Source",
+      "shortName": "apple",
+      "detailFile": "apple__CNA-2009-0002.json",
+      "organizationName": "Apple Inc.",
+      "cnaType": "Vendor",
       "cnaTypes": [
-        "Open Source"
+        "Vendor"
       ],
       "rank": 349,
       "active_cna_count": 353,
       "percentile": 1.4,
-      "total_cves": 132,
-      "recent_cves": 132,
+      "total_cves": 617,
+      "recent_cves": 617,
       "is_active": true,
       "scores": {
         "overall_average_score": 50.0,
@@ -120,20 +120,20 @@
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "Jenkins and Jenkins plugins distributed by the Jenkins Project (listed on <a href='https://plugins.jenkins.io/' target='_blank'>plugins.jenkins.io</a>) only.",
+      "scope": "Apple issues only.",
       "advisories": [
         {
           "label": "Advisories",
-          "url": "https://jenkins.io/security/advisories/"
+          "url": "https://support.apple.com/en-us/HT201222"
         }
       ],
-      "officialCnaID": "CNA-2018-0015",
+      "officialCnaID": "CNA-2009-0002",
       "country": "USA",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://jenkins.io/security/"
+          "url": "https://support.apple.com/en-us/HT201220"
         }
       ]
     }
