@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Secur0",
-    "total_cves": 39,
-    "total_cves_scored": 39,
+    "total_cves": 41,
+    "total_cves_scored": 41,
     "organizationName": "Secur0",
     "scope": "Vulnerabilities identified by Secur0 or third parties in the programs listed at <a href='https://app.secur0.com/programs' target='_blank'>https://app.secur0.com/programs</a>.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 1,
-  "active_cna_count": 353,
+  "active_cna_count": 352,
   "percentile": 100.0,
   "cna_scoring": [
     {
-      "total_cves": 39,
-      "total_cves_scored": 39,
-      "recent_cves_count": 39,
+      "total_cves": 41,
+      "total_cves_scored": 41,
+      "recent_cves_count": 41,
       "overall_average_score": 100.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -215,9 +215,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-91154",
+      "cveId": "CVE-2026-75872",
       "assigningCna": "Secur0",
-      "datePublished": "2026-09-28",
+      "datePublished": "2026-08-18",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -228,9 +228,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-75872",
+      "cveId": "CVE-2026-91154",
       "assigningCna": "Secur0",
-      "datePublished": "2026-08-18",
+      "datePublished": "2026-09-28",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -478,6 +478,32 @@
       "cveId": "CVE-2026-77780",
       "assigningCna": "Secur0",
       "datePublished": "2026-08-21",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-104025",
+      "assigningCna": "Secur0",
+      "datePublished": "2026-10-15",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-104024",
+      "assigningCna": "Secur0",
+      "datePublished": "2026-10-15",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
