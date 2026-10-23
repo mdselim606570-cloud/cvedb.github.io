@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Google",
-    "total_cves": 37,
-    "total_cves_scored": 37,
+    "total_cves": 38,
+    "total_cves_scored": 38,
     "organizationName": "Google LLC",
     "scope": "<strong>Root Scope:</strong> Alphabet organizations.<br/><strong>CNA Scope:</strong> Google products, including open source software published and maintained by Google, and vulnerabilities in third-party software discovered by Google that are not in another CNA’s scope.",
     "advisories": [
@@ -39,70 +39,31 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 105,
-  "active_cna_count": 352,
-  "percentile": 70.5,
+  "rank": 101,
+  "active_cna_count": 355,
+  "percentile": 71.8,
   "cna_scoring": [
     {
-      "total_cves": 37,
-      "total_cves_scored": 37,
-      "recent_cves_count": 37,
-      "overall_average_score": 81.08,
+      "total_cves": 38,
+      "total_cves_scored": 38,
+      "recent_cves_count": 38,
+      "overall_average_score": 81.32,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 1.08,
+      "average_patchinfo": 1.32,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 10.81,
+      "percent_patchinfo": 13.16,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-105772",
-      "assigningCna": "Google",
-      "datePublished": "2026-10-20",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-103090",
-      "assigningCna": "Google",
-      "datePublished": "2026-10-21",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-103091",
-      "assigningCna": "Google",
-      "datePublished": "2026-10-19",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-16481",
       "assigningCna": "Google",
@@ -133,6 +94,45 @@
       "cveId": "CVE-2026-12681",
       "assigningCna": "Google",
       "datePublished": "2026-06-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-105772",
+      "assigningCna": "Google",
+      "datePublished": "2026-10-20",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-103090",
+      "assigningCna": "Google",
+      "datePublished": "2026-10-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-103091",
+      "assigningCna": "Google",
+      "datePublished": "2026-10-19",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -530,6 +530,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-111497",
+      "assigningCna": "Google",
+      "datePublished": "2026-10-22",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {

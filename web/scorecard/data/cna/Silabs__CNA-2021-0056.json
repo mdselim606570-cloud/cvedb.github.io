@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Silabs",
-    "total_cves": 33,
-    "total_cves_scored": 33,
+    "total_cves": 41,
+    "total_cves_scored": 41,
     "organizationName": "Silicon Labs",
     "scope": "Silicon Labs issues only.",
     "advisories": [
@@ -33,31 +33,70 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 85,
-  "active_cna_count": 352,
-  "percentile": 76.1,
+  "rank": 88,
+  "active_cna_count": 355,
+  "percentile": 75.5,
   "cna_scoring": [
     {
-      "total_cves": 33,
-      "total_cves_scored": 33,
-      "recent_cves_count": 33,
-      "overall_average_score": 84.85,
+      "total_cves": 41,
+      "total_cves_scored": 41,
+      "recent_cves_count": 41,
+      "overall_average_score": 84.15,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 4.85,
+      "average_patchinfo": 4.15,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 48.48,
+      "percent_patchinfo": 41.46,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-16769",
+      "assigningCna": "Silabs",
+      "datePublished": "2026-09-08",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-16101",
+      "assigningCna": "Silabs",
+      "datePublished": "2026-08-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-2815",
+      "assigningCna": "Silabs",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
     {
       "cveId": "CVE-2026-47145",
       "assigningCna": "Silabs",
@@ -137,9 +176,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-16769",
+      "cveId": "CVE-2026-85080",
       "assigningCna": "Silabs",
-      "datePublished": "2026-09-08",
+      "datePublished": "2026-10-22",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -150,9 +189,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-16101",
+      "cveId": "CVE-2026-85079",
       "assigningCna": "Silabs",
-      "datePublished": "2026-08-13",
+      "datePublished": "2026-10-22",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -160,19 +199,6 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-2815",
-      "assigningCna": "Silabs",
-      "datePublished": "2026-06-25",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
       }
     },
     {
@@ -186,6 +212,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-94502",
+      "assigningCna": "Silabs",
+      "datePublished": "2026-10-22",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
@@ -472,6 +511,71 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-66282",
+      "assigningCna": "Silabs",
+      "datePublished": "2026-10-22",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-66281",
+      "assigningCna": "Silabs",
+      "datePublished": "2026-10-22",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-66279",
+      "assigningCna": "Silabs",
+      "datePublished": "2026-10-22",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-89410",
+      "assigningCna": "Silabs",
+      "datePublished": "2026-10-22",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89409",
+      "assigningCna": "Silabs",
+      "datePublished": "2026-10-22",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
