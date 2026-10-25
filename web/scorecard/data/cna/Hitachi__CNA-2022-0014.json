@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 114,
-  "active_cna_count": 355,
-  "percentile": 68.2,
+  "rank": 115,
+  "active_cna_count": 356,
+  "percentile": 68.0,
   "cna_scoring": [
     {
       "total_cves": 21,
@@ -59,9 +59,22 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-71377",
+      "cveId": "CVE-2026-86607",
       "assigningCna": "Hitachi",
-      "datePublished": "2026-09-08",
+      "datePublished": "2026-10-14",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-86573",
+      "assigningCna": "Hitachi",
+      "datePublished": "2026-10-14",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -111,9 +124,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-3314",
+      "cveId": "CVE-2026-71377",
       "assigningCna": "Hitachi",
-      "datePublished": "2026-05-26",
+      "datePublished": "2026-09-08",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -124,7 +137,20 @@
       }
     },
     {
-      "cveId": "CVE-2026-82825",
+      "cveId": "CVE-2026-82715",
+      "assigningCna": "Hitachi",
+      "datePublished": "2026-10-14",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-82827",
       "assigningCna": "Hitachi",
       "datePublished": "2026-10-01",
       "totalCveScore": 80,
@@ -150,46 +176,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-82828",
-      "assigningCna": "Hitachi",
-      "datePublished": "2026-10-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-82715",
-      "assigningCna": "Hitachi",
-      "datePublished": "2026-10-14",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-82824",
-      "assigningCna": "Hitachi",
-      "datePublished": "2026-10-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-82827",
       "assigningCna": "Hitachi",
       "datePublished": "2026-10-01",
       "totalCveScore": 80,
@@ -215,9 +202,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-86573",
+      "cveId": "CVE-2026-82825",
       "assigningCna": "Hitachi",
-      "datePublished": "2026-10-14",
+      "datePublished": "2026-10-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -228,9 +215,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-86607",
+      "cveId": "CVE-2026-82828",
       "assigningCna": "Hitachi",
-      "datePublished": "2026-10-14",
+      "datePublished": "2026-10-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -241,22 +228,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-2514",
+      "cveId": "CVE-2026-3314",
       "assigningCna": "Hitachi",
-      "datePublished": "2026-05-07",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-2902",
-      "assigningCna": "Hitachi",
-      "datePublished": "2026-06-29",
+      "datePublished": "2026-05-26",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -293,19 +267,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-9661",
-      "assigningCna": "Hitachi",
-      "datePublished": "2026-05-07",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-7737",
       "assigningCna": "Hitachi",
       "datePublished": "2026-06-19",
@@ -322,6 +283,45 @@
       "cveId": "CVE-2025-7386",
       "assigningCna": "Hitachi",
       "datePublished": "2026-06-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-9661",
+      "assigningCna": "Hitachi",
+      "datePublished": "2026-05-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-2902",
+      "assigningCna": "Hitachi",
+      "datePublished": "2026-06-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-2514",
+      "assigningCna": "Hitachi",
+      "datePublished": "2026-05-07",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

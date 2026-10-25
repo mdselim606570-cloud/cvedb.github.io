@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 21,
-  "active_cna_count": 355,
-  "percentile": 94.4,
+  "rank": 22,
+  "active_cna_count": 356,
+  "percentile": 94.1,
   "cna_scoring": [
     {
       "total_cves": 8,
@@ -59,7 +59,7 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-13465",
+      "cveId": "CVE-2026-13467",
       "assigningCna": "Altera",
       "datePublished": "2026-09-24",
       "totalCveScore": 90,
@@ -85,7 +85,20 @@
       }
     },
     {
-      "cveId": "CVE-2026-13467",
+      "cveId": "CVE-2026-13465",
+      "assigningCna": "Altera",
+      "datePublished": "2026-09-24",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58005",
       "assigningCna": "Altera",
       "datePublished": "2026-09-24",
       "totalCveScore": 90,
@@ -124,19 +137,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-58008",
-      "assigningCna": "Altera",
-      "datePublished": "2026-09-24",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-58006",
       "assigningCna": "Altera",
       "datePublished": "2026-09-24",
@@ -150,7 +150,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-58005",
+      "cveId": "CVE-2026-58008",
       "assigningCna": "Altera",
       "datePublished": "2026-09-24",
       "totalCveScore": 90,

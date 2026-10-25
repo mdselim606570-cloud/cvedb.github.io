@@ -34,9 +34,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 316,
-  "active_cna_count": 355,
-  "percentile": 11.3,
+  "rank": 317,
+  "active_cna_count": 356,
+  "percentile": 11.2,
   "cna_scoring": [
     {
       "total_cves": 10,
@@ -60,6 +60,19 @@
   ],
   "recent_cves": [
     {
+      "cveId": "CVE-2026-21584",
+      "assigningCna": "atlassian",
+      "datePublished": "2026-08-18",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-21588",
       "assigningCna": "atlassian",
       "datePublished": "2026-09-15",
@@ -73,28 +86,15 @@
       }
     },
     {
-      "cveId": "CVE-2026-21586",
+      "cveId": "CVE-2026-21579",
       "assigningCna": "atlassian",
-      "datePublished": "2026-09-15",
+      "datePublished": "2026-07-21",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-21584",
-      "assigningCna": "atlassian",
-      "datePublished": "2026-08-18",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
@@ -112,7 +112,20 @@
       }
     },
     {
-      "cveId": "CVE-2026-21575",
+      "cveId": "CVE-2026-21580",
+      "assigningCna": "atlassian",
+      "datePublished": "2026-08-18",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21577",
       "assigningCna": "atlassian",
       "datePublished": "2026-07-21",
       "totalCveScore": 75,
@@ -138,9 +151,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-21577",
+      "cveId": "CVE-2026-21586",
       "assigningCna": "atlassian",
-      "datePublished": "2026-07-21",
+      "datePublished": "2026-09-15",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -151,9 +164,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-21580",
+      "cveId": "CVE-2026-21575",
       "assigningCna": "atlassian",
-      "datePublished": "2026-08-18",
+      "datePublished": "2026-07-21",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -173,19 +186,6 @@
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-21579",
-      "assigningCna": "atlassian",
-      "datePublished": "2026-07-21",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
         "patchinfo": 0
       }
     }
