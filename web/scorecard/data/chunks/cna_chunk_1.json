@@ -16,16 +16,16 @@
       "rank": 51,
       "active_cna_count": 356,
       "percentile": 86.0,
-      "total_cves": 6190,
-      "recent_cves": 6190,
+      "total_cves": 6271,
+      "recent_cves": 6271,
       "is_active": true,
       "scores": {
         "overall_average_score": 89.82,
         "foundational_completeness": 100.0,
         "root_cause_analysis": 99.97,
-        "software_identification": 65.61,
+        "software_identification": 65.92,
         "severity_and_impact": 100.0,
-        "patchinfo": 32.63
+        "patchinfo": 32.36
       },
       "trend": {
         "direction": "steady",
@@ -1277,12 +1277,13 @@
       ]
     },
     {
-      "shortName": "dotCMS",
-      "detailFile": "dotCMS__CNA-2023-0001.json",
-      "organizationName": "dotCMS LLC",
-      "cnaType": "Hosted Service",
+      "shortName": "kubernetes",
+      "detailFile": "kubernetes__CNA-2017-0022.json",
+      "organizationName": "Kubernetes",
+      "cnaType": "Vendor",
       "cnaTypes": [
-        "Hosted Service"
+        "Vendor",
+        "Open Source"
       ],
       "rank": 79,
       "active_cna_count": 356,
@@ -1303,26 +1304,20 @@
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "All dotCMS product services including the vulnerabilities reported in our open source core located at <a href='https://github.com/dotCMS/core' target='_blank'>https://github.com/dotCMS/core</a>.",
+      "scope": "Kubernetes issues only.",
       "advisories": [
         {
           "label": "Advisories",
-          "language": "",
-          "url": "https://www.dotcms.com/docs/latest/known-security-issues"
+          "url": "https://kubernetes.io/cve"
         }
       ],
-      "officialCnaID": "CNA-2023-0001",
+      "officialCnaID": "CNA-2017-0022",
       "country": "USA",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://www.dotcms.com/docs/latest/responsible-disclosure-policy"
-        },
-        {
-          "label": "Reporting Issues",
-          "language": "",
-          "url": "https://www.dotcms.com/docs/latest/security-and-privacy#:~:text=dotCMS%20will%20disclose%20all%20issues,fix%20the%20reported%20security%20issue"
+          "url": "https://kubernetes.io/security"
         }
       ]
     },
@@ -1416,52 +1411,6 @@
       ]
     },
     {
-      "shortName": "flexera",
-      "detailFile": "flexera__CNA-2017-0004.json",
-      "organizationName": "Flexera Software LLC",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor",
-        "Open Source",
-        "Researcher"
-      ],
-      "rank": 79,
-      "active_cna_count": 356,
-      "percentile": 78.1,
-      "total_cves": 4,
-      "recent_cves": 4,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 85.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 50.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 0.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "All Flexera, Revenera, and Snow Software products, and vulnerabilities discovered by Secunia Research that are not in another CNA’s scope.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://security-info.flexera.com/"
-        }
-      ],
-      "officialCnaID": "CNA-2017-0004",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.flexera.com/products/operations/software-vulnerability-research/secunia-research/disclosure-policy.html?_ga=2.126100429.1927534686.1582843801-707336045.1578583910"
-        }
-      ]
-    },
-    {
       "shortName": "Toreon",
       "detailFile": "Toreon__CNA-2025-0031.json",
       "organizationName": "Toreon",
@@ -1506,13 +1455,12 @@
       ]
     },
     {
-      "shortName": "kubernetes",
-      "detailFile": "kubernetes__CNA-2017-0022.json",
-      "organizationName": "Kubernetes",
-      "cnaType": "Vendor",
+      "shortName": "dotCMS",
+      "detailFile": "dotCMS__CNA-2023-0001.json",
+      "organizationName": "dotCMS LLC",
+      "cnaType": "Hosted Service",
       "cnaTypes": [
-        "Vendor",
-        "Open Source"
+        "Hosted Service"
       ],
       "rank": 79,
       "active_cna_count": 356,
@@ -1533,20 +1481,72 @@
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "Kubernetes issues only.",
+      "scope": "All dotCMS product services including the vulnerabilities reported in our open source core located at <a href='https://github.com/dotCMS/core' target='_blank'>https://github.com/dotCMS/core</a>.",
       "advisories": [
         {
           "label": "Advisories",
-          "url": "https://kubernetes.io/cve"
+          "language": "",
+          "url": "https://www.dotcms.com/docs/latest/known-security-issues"
         }
       ],
-      "officialCnaID": "CNA-2017-0022",
+      "officialCnaID": "CNA-2023-0001",
       "country": "USA",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://kubernetes.io/security"
+          "url": "https://www.dotcms.com/docs/latest/responsible-disclosure-policy"
+        },
+        {
+          "label": "Reporting Issues",
+          "language": "",
+          "url": "https://www.dotcms.com/docs/latest/security-and-privacy#:~:text=dotCMS%20will%20disclose%20all%20issues,fix%20the%20reported%20security%20issue"
+        }
+      ]
+    },
+    {
+      "shortName": "flexera",
+      "detailFile": "flexera__CNA-2017-0004.json",
+      "organizationName": "Flexera Software LLC",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor",
+        "Open Source",
+        "Researcher"
+      ],
+      "rank": 79,
+      "active_cna_count": 356,
+      "percentile": 78.1,
+      "total_cves": 4,
+      "recent_cves": 4,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 85.0,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 50.0,
+        "severity_and_impact": 100.0,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "All Flexera, Revenera, and Snow Software products, and vulnerabilities discovered by Secunia Research that are not in another CNA’s scope.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://security-info.flexera.com/"
+        }
+      ],
+      "officialCnaID": "CNA-2017-0004",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.flexera.com/products/operations/software-vulnerability-research/secunia-research/disclosure-policy.html?_ga=2.126100429.1927534686.1582843801-707336045.1578583910"
         }
       ]
     },
