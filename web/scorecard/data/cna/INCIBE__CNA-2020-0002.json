@@ -43,22 +43,22 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 21,
-  "active_cna_count": 356,
+  "active_cna_count": 360,
   "percentile": 94.4,
   "cna_scoring": [
     {
       "total_cves": 126,
       "total_cves_scored": 126,
       "recent_cves_count": 126,
-      "overall_average_score": 90.2,
+      "overall_average_score": 90.44,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.88,
-      "average_software_identification": 6.11,
+      "average_software_identification": 6.35,
       "average_severity_context": 15.0,
       "average_patchinfo": 4.21,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.21,
-      "percent_software_identification": 61.11,
+      "percent_software_identification": 63.49,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 42.06,
       "trend_direction": "steady",
@@ -67,6 +67,45 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-92531",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-10-07",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-92976",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-09-18",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-1836",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-06-12",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
     {
       "cveId": "CVE-2026-10836",
       "assigningCna": "INCIBE",
@@ -130,45 +169,6 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
         "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-92531",
-      "assigningCna": "INCIBE",
-      "datePublished": "2026-10-07",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-92976",
-      "assigningCna": "INCIBE",
-      "datePublished": "2026-09-18",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-1836",
-      "assigningCna": "INCIBE",
-      "datePublished": "2026-06-12",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
       }
     },
     {
@@ -913,6 +913,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-14571",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-108071",
       "assigningCna": "INCIBE",
       "datePublished": "2026-10-14",
@@ -1290,6 +1303,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-112197",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-112198",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-112161",
       "assigningCna": "INCIBE",
       "datePublished": "2026-10-19",
@@ -1628,19 +1667,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-5781",
-      "assigningCna": "INCIBE",
-      "datePublished": "2026-04-28",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-5798",
       "assigningCna": "INCIBE",
       "datePublished": "2026-05-14",
@@ -1654,19 +1680,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-5779",
-      "assigningCna": "INCIBE",
-      "datePublished": "2026-04-28",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-5790",
       "assigningCna": "INCIBE",
       "datePublished": "2026-05-14",
@@ -1676,19 +1689,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-5780",
-      "assigningCna": "INCIBE",
-      "datePublished": "2026-04-28",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },

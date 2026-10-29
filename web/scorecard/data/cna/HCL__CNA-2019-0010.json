@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "HCL",
-    "total_cves": 166,
-    "total_cves_scored": 166,
+    "total_cves": 172,
+    "total_cves_scored": 172,
     "organizationName": "HCL Software",
     "scope": "All HCL products only.",
     "advisories": [
@@ -33,22 +33,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 286,
-  "active_cna_count": 356,
-  "percentile": 19.9,
+  "rank": 289,
+  "active_cna_count": 360,
+  "percentile": 20.0,
   "cna_scoring": [
     {
-      "total_cves": 166,
-      "total_cves_scored": 166,
-      "recent_cves_count": 166,
-      "overall_average_score": 79.1,
+      "total_cves": 172,
+      "total_cves_scored": 172,
+      "recent_cves_count": 172,
+      "overall_average_score": 79.13,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.1,
+      "average_root_cause_analysis": 14.13,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 93.98,
+      "percent_root_cause_analysis": 94.19,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -58,71 +58,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-66247",
-      "assigningCna": "HCL",
-      "datePublished": "2026-10-01",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-66246",
-      "assigningCna": "HCL",
-      "datePublished": "2026-10-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-66253",
-      "assigningCna": "HCL",
-      "datePublished": "2026-10-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-66248",
-      "assigningCna": "HCL",
-      "datePublished": "2026-10-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-66249",
-      "assigningCna": "HCL",
-      "datePublished": "2026-10-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-67105",
       "assigningCna": "HCL",
@@ -202,6 +137,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-67077",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-67172",
       "assigningCna": "HCL",
       "datePublished": "2026-10-01",
@@ -254,6 +202,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-67074",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-67079",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-67104",
       "assigningCna": "HCL",
       "datePublished": "2026-10-01",
@@ -267,7 +241,98 @@
       }
     },
     {
+      "cveId": "CVE-2026-67080",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-67073",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-67106",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-66247",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-01",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-66246",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-66253",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-66248",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-66249",
       "assigningCna": "HCL",
       "datePublished": "2026-10-01",
       "totalCveScore": 80,
@@ -374,6 +439,19 @@
       "cveId": "CVE-2026-21751",
       "assigningCna": "HCL",
       "datePublished": "2026-08-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21830",
+      "assigningCna": "HCL",
+      "datePublished": "2026-10-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

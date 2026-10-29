@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "ProgressSoftware",
-    "total_cves": 141,
-    "total_cves_scored": 141,
+    "total_cves": 147,
+    "total_cves_scored": 147,
     "organizationName": "Progress Software Corporation",
     "scope": "Vulnerabilities in software published and maintained by Progress Software Corporation.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 275,
-  "active_cna_count": 356,
-  "percentile": 23.0,
+  "rank": 279,
+  "active_cna_count": 360,
+  "percentile": 22.8,
   "cna_scoring": [
     {
-      "total_cves": 141,
-      "total_cves_scored": 141,
-      "recent_cves_count": 141,
+      "total_cves": 147,
+      "total_cves_scored": 147,
+      "recent_cves_count": 147,
       "overall_average_score": 79.86,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.79,
+      "average_root_cause_analysis": 14.8,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.07,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.58,
+      "percent_root_cause_analysis": 98.64,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 0.71,
+      "percent_patchinfo": 0.68,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -59,9 +59,9 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-10699",
+      "cveId": "CVE-2026-118036",
       "assigningCna": "ProgressSoftware",
-      "datePublished": "2026-07-08",
+      "datePublished": "2026-10-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -72,9 +72,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-10698",
+      "cveId": "CVE-2026-118038",
       "assigningCna": "ProgressSoftware",
-      "datePublished": "2026-07-08",
+      "datePublished": "2026-10-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -85,9 +85,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-10697",
+      "cveId": "CVE-2026-118040",
       "assigningCna": "ProgressSoftware",
-      "datePublished": "2026-07-23",
+      "datePublished": "2026-10-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -98,9 +98,35 @@
       }
     },
     {
-      "cveId": "CVE-2026-92931",
+      "cveId": "CVE-2026-118035",
       "assigningCna": "ProgressSoftware",
-      "datePublished": "2026-10-05",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-118037",
+      "assigningCna": "ProgressSoftware",
+      "datePublished": "2026-10-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-118039",
+      "assigningCna": "ProgressSoftware",
+      "datePublished": "2026-10-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -397,6 +423,45 @@
       }
     },
     {
+      "cveId": "CVE-2026-10699",
+      "assigningCna": "ProgressSoftware",
+      "datePublished": "2026-07-08",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-10698",
+      "assigningCna": "ProgressSoftware",
+      "datePublished": "2026-07-08",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-10697",
+      "assigningCna": "ProgressSoftware",
+      "datePublished": "2026-07-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-59689",
       "assigningCna": "ProgressSoftware",
       "datePublished": "2026-07-27",
@@ -465,6 +530,19 @@
       "cveId": "CVE-2026-4670",
       "assigningCna": "ProgressSoftware",
       "datePublished": "2026-04-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-92931",
+      "assigningCna": "ProgressSoftware",
+      "datePublished": "2026-10-05",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

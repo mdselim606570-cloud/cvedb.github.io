@@ -34,8 +34,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 23,
-  "active_cna_count": 356,
-  "percentile": 93.8,
+  "active_cna_count": 360,
+  "percentile": 93.9,
   "cna_scoring": [
     {
       "total_cves": 93,
@@ -58,6 +58,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-113881",
+      "assigningCna": "WatchGuard",
+      "datePublished": "2026-10-27",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-57909",
       "assigningCna": "WatchGuard",
@@ -88,19 +101,6 @@
       "cveId": "CVE-2026-96293",
       "assigningCna": "WatchGuard",
       "datePublished": "2026-10-22",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-113881",
-      "assigningCna": "WatchGuard",
-      "datePublished": "2026-10-27",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

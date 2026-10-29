@@ -1,9 +1,190 @@
 {
   "chunkIndex": 7,
   "startIndex": 350,
-  "endIndex": 356,
-  "count": 6,
+  "endIndex": 360,
+  "count": 10,
   "items": [
+    {
+      "shortName": "Chrome",
+      "detailFile": "Chrome__CNA-2011-0003.json",
+      "organizationName": "Chrome",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor",
+        "Open Source",
+        "Researcher"
+      ],
+      "rank": 351,
+      "active_cna_count": 360,
+      "percentile": 2.8,
+      "total_cves": 3396,
+      "recent_cves": 3396,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 62.23,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 81.54,
+        "software_identification": 0.0,
+        "severity_and_impact": 0.0,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "Chrome issues and projects that are not in another CNA’s scope.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://chromereleases.googleblog.com/"
+        }
+      ],
+      "officialCnaID": "CNA-2011-0003",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.google.com/about/appsecurity/"
+        }
+      ]
+    },
+    {
+      "shortName": "mitre",
+      "detailFile": "mitre__CNA-1999-0001.json",
+      "organizationName": "MITRE Corporation",
+      "cnaType": "Unknown",
+      "cnaTypes": [
+        "Unknown"
+      ],
+      "rank": 352,
+      "active_cna_count": 360,
+      "percentile": 2.5,
+      "total_cves": 2250,
+      "recent_cves": 2250,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 59.42,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 23.56,
+        "software_identification": 16.89,
+        "severity_and_impact": 26.71,
+        "patchinfo": 1.91
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "<strong>Top-Level Root Hierarchy:</strong> Roots, CNA-LRs, and CNAs formally assigned to the MITRE TL-Root hierarchy, including global, cross-sector, and other participants assigned through CVE Program processes.<br/><strong>CNA-LR Scope:</strong> All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
+      "advisories": [
+        {
+          "label": "N/A",
+          "url": ""
+        }
+      ],
+      "officialCnaID": "CNA-1999-0001",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "N/A",
+          "language": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "shortName": "XEN",
+      "detailFile": "XEN__CNA-2021-0009.json",
+      "organizationName": "Xen Project",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor",
+        "Open Source"
+      ],
+      "rank": 353,
+      "active_cna_count": 360,
+      "percentile": 2.2,
+      "total_cves": 46,
+      "recent_cves": 46,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 57.17,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 23.91,
+        "software_identification": 0.0,
+        "severity_and_impact": 23.91,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "All sub-projects under Xen Project’s umbrella (see <a href='https://xenproject.org/developers/teams/' target='_blank'>Xen Project Teams</a>), except those sub-projects that have their own security response process; and the Xen components inside other projects, where Xen Project is the primary developer.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://xenbits.xen.org/xsa/"
+        }
+      ],
+      "officialCnaID": "CNA-2021-0009",
+      "country": "UK",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://xenproject.org/about/security-policy/"
+        }
+      ]
+    },
+    {
+      "shortName": "google_android",
+      "detailFile": "google_android__CNA-2011-0002.json",
+      "organizationName": "Android (associated with Google Inc. or Open Handset Alliance)",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor",
+        "Open Source",
+        "Researcher"
+      ],
+      "rank": 354,
+      "active_cna_count": 360,
+      "percentile": 1.9,
+      "total_cves": 198,
+      "recent_cves": 198,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 51.29,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 0.51,
+        "software_identification": 0.0,
+        "severity_and_impact": 8.08,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "Android issues, as well as vulnerabilities in third-party software discovered by Android that are not in another CNA’s scope.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://source.android.com/security/bulletin"
+        }
+      ],
+      "officialCnaID": "CNA-2011-0002",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://source.android.com/security/overview/updates-resources#report-issues"
+        }
+      ]
+    },
     {
       "shortName": "Google_Devices",
       "detailFile": "Google_Devices__CNA-2023-0040.json",
@@ -12,8 +193,8 @@
       "cnaTypes": [
         "Vendor"
       ],
-      "rank": 351,
-      "active_cna_count": 356,
+      "rank": 355,
+      "active_cna_count": 360,
       "percentile": 1.7,
       "total_cves": 144,
       "recent_cves": 144,
@@ -57,51 +238,6 @@
       ]
     },
     {
-      "shortName": "debian",
-      "detailFile": "debian__CNA-2005-0003.json",
-      "organizationName": "Debian GNU/Linux",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor",
-        "Open Source"
-      ],
-      "rank": 352,
-      "active_cna_count": 356,
-      "percentile": 1.4,
-      "total_cves": 2,
-      "recent_cves": 2,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 50.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 0.0,
-        "software_identification": 0.0,
-        "severity_and_impact": 0.0,
-        "patchinfo": 0.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "Debian issues only.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://www.debian.org/security/#DSAS"
-        }
-      ],
-      "officialCnaID": "CNA-2005-0003",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.debian.org/security/disclosure-policy"
-        }
-      ]
-    },
-    {
       "shortName": "apple",
       "detailFile": "apple__CNA-2009-0002.json",
       "organizationName": "Apple Inc.",
@@ -109,11 +245,11 @@
       "cnaTypes": [
         "Vendor"
       ],
-      "rank": 352,
-      "active_cna_count": 356,
+      "rank": 356,
+      "active_cna_count": 360,
       "percentile": 1.4,
-      "total_cves": 987,
-      "recent_cves": 987,
+      "total_cves": 989,
+      "recent_cves": 989,
       "is_active": true,
       "scores": {
         "overall_average_score": 50.0,
@@ -154,11 +290,11 @@
         "Vendor",
         "Open Source"
       ],
-      "rank": 352,
-      "active_cna_count": 356,
+      "rank": 356,
+      "active_cna_count": 360,
       "percentile": 1.4,
-      "total_cves": 688,
-      "recent_cves": 688,
+      "total_cves": 683,
+      "recent_cves": 683,
       "is_active": true,
       "scores": {
         "overall_average_score": 50.0,
@@ -198,11 +334,11 @@
       "cnaTypes": [
         "Open Source"
       ],
-      "rank": 352,
-      "active_cna_count": 356,
+      "rank": 356,
+      "active_cna_count": 360,
       "percentile": 1.4,
-      "total_cves": 132,
-      "recent_cves": 132,
+      "total_cves": 147,
+      "recent_cves": 147,
       "is_active": true,
       "scores": {
         "overall_average_score": 50.0,
@@ -235,6 +371,51 @@
       ]
     },
     {
+      "shortName": "debian",
+      "detailFile": "debian__CNA-2005-0003.json",
+      "organizationName": "Debian GNU/Linux",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor",
+        "Open Source"
+      ],
+      "rank": 356,
+      "active_cna_count": 360,
+      "percentile": 1.4,
+      "total_cves": 2,
+      "recent_cves": 2,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 50.0,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 0.0,
+        "software_identification": 0.0,
+        "severity_and_impact": 0.0,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "Debian issues only.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://www.debian.org/security/#DSAS"
+        }
+      ],
+      "officialCnaID": "CNA-2005-0003",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.debian.org/security/disclosure-policy"
+        }
+      ]
+    },
+    {
       "shortName": "Nokia",
       "detailFile": "Nokia__CNA-2023-0055.json",
       "organizationName": "Nokia",
@@ -242,8 +423,8 @@
       "cnaTypes": [
         "Vendor"
       ],
-      "rank": 352,
-      "active_cna_count": 356,
+      "rank": 356,
+      "active_cna_count": 360,
       "percentile": 1.4,
       "total_cves": 10,
       "recent_cves": 10,
