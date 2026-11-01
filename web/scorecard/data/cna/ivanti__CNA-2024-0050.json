@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 120,
-  "active_cna_count": 364,
-  "percentile": 67.3,
+  "rank": 121,
+  "active_cna_count": 363,
+  "percentile": 66.9,
   "cna_scoring": [
     {
       "total_cves": 39,
@@ -124,6 +124,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-6973",
+      "assigningCna": "ivanti",
+      "datePublished": "2026-05-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-10727",
       "assigningCna": "ivanti",
       "datePublished": "2026-06-09",
@@ -179,19 +192,6 @@
       "cveId": "CVE-2026-83527",
       "assigningCna": "ivanti",
       "datePublished": "2026-09-08",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6973",
-      "assigningCna": "ivanti",
-      "datePublished": "2026-05-07",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

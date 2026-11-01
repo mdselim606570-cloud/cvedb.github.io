@@ -1,66 +1,23 @@
 {
   "chunkIndex": 7,
   "startIndex": 350,
-  "endIndex": 364,
-  "count": 14,
+  "endIndex": 363,
+  "count": 13,
   "items": [
     {
-      "shortName": "Infoblox",
-      "detailFile": "Infoblox__CNA-2026-0070.json",
-      "organizationName": "Infoblox Inc.",
+      "shortName": "imaginationtech",
+      "detailFile": "imaginationtech__CNA-2024-0051.json",
+      "organizationName": "Imagination Technologies",
       "cnaType": "Vendor",
       "cnaTypes": [
-        "Vendor"
+        "Vendor",
+        "Open Source"
       ],
-      "rank": 336,
-      "active_cna_count": 364,
+      "rank": 335,
+      "active_cna_count": 363,
       "percentile": 8.0,
-      "total_cves": 1,
-      "recent_cves": 1,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 65.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 0.0,
-        "software_identification": 0.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 0.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "All Infoblox products found at <a href='https://www.infoblox.com/products/' target='_blank'>https://www.infoblox.com/products/</a>.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://support.infoblox.com/s/article/2899"
-        }
-      ],
-      "officialCnaID": "CNA-2026-0070",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.infoblox.com/company/legal/vulnerability-responsible-disclosure-policy/"
-        }
-      ]
-    },
-    {
-      "shortName": "naver",
-      "detailFile": "naver__CNA-2018-0007.json",
-      "organizationName": "Naver Corporation",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor"
-      ],
-      "rank": 336,
-      "active_cna_count": 364,
-      "percentile": 8.0,
-      "total_cves": 1,
-      "recent_cves": 1,
+      "total_cves": 39,
+      "recent_cves": 39,
       "is_active": true,
       "scores": {
         "overall_average_score": 65.0,
@@ -75,20 +32,20 @@
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "Naver products only, except Line products.",
+      "scope": "Imagination Technologies branded products and technologies and Imagination Technologies (IMG) managed open source projects.",
       "advisories": [
         {
           "label": "Advisories",
-          "url": "https://cve.naver.com/"
+          "url": "https://www.imaginationtech.com/gpu-driver-vulnerabilities/"
         }
       ],
-      "officialCnaID": "CNA-2018-0007",
-      "country": "South Korea",
+      "officialCnaID": "CNA-2024-0051",
+      "country": "UK",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://cve.naver.com/"
+          "url": "https://www.imaginationtech.com/product-security-policy/"
         }
       ]
     },
@@ -101,8 +58,8 @@
         "Vendor",
         "Open Source"
       ],
-      "rank": 353,
-      "active_cna_count": 364,
+      "rank": 352,
+      "active_cna_count": 363,
       "percentile": 3.3,
       "total_cves": 281,
       "recent_cves": 281,
@@ -146,8 +103,8 @@
         "Vendor",
         "Open Source"
       ],
-      "rank": 354,
-      "active_cna_count": 364,
+      "rank": 353,
+      "active_cna_count": 363,
       "percentile": 3.0,
       "total_cves": 67,
       "recent_cves": 67,
@@ -192,9 +149,9 @@
         "Open Source",
         "Researcher"
       ],
-      "rank": 355,
-      "active_cna_count": 364,
-      "percentile": 2.7,
+      "rank": 354,
+      "active_cna_count": 363,
+      "percentile": 2.8,
       "total_cves": 3417,
       "recent_cves": 3417,
       "is_active": true,
@@ -236,19 +193,19 @@
       "cnaTypes": [
         "Unknown"
       ],
-      "rank": 356,
-      "active_cna_count": 364,
+      "rank": 355,
+      "active_cna_count": 363,
       "percentile": 2.5,
-      "total_cves": 2300,
-      "recent_cves": 2300,
+      "total_cves": 2273,
+      "recent_cves": 2273,
       "is_active": true,
       "scores": {
-        "overall_average_score": 59.22,
+        "overall_average_score": 59.24,
         "foundational_completeness": 100.0,
-        "root_cause_analysis": 23.04,
-        "software_identification": 16.52,
-        "severity_and_impact": 26.13,
-        "patchinfo": 1.87
+        "root_cause_analysis": 23.1,
+        "software_identification": 16.5,
+        "severity_and_impact": 26.22,
+        "patchinfo": 1.89
       },
       "trend": {
         "direction": "steady",
@@ -281,8 +238,8 @@
         "Vendor",
         "Open Source"
       ],
-      "rank": 357,
-      "active_cna_count": 364,
+      "rank": 356,
+      "active_cna_count": 363,
       "percentile": 2.2,
       "total_cves": 46,
       "recent_cves": 46,
@@ -327,8 +284,8 @@
         "Open Source",
         "Researcher"
       ],
-      "rank": 358,
-      "active_cna_count": 364,
+      "rank": 357,
+      "active_cna_count": 363,
       "percentile": 1.9,
       "total_cves": 198,
       "recent_cves": 198,
@@ -371,9 +328,9 @@
       "cnaTypes": [
         "Vendor"
       ],
-      "rank": 359,
-      "active_cna_count": 364,
-      "percentile": 1.6,
+      "rank": 358,
+      "active_cna_count": 363,
+      "percentile": 1.7,
       "total_cves": 144,
       "recent_cves": 144,
       "is_active": true,
@@ -416,50 +373,6 @@
       ]
     },
     {
-      "shortName": "Nokia",
-      "detailFile": "Nokia__CNA-2023-0055.json",
-      "organizationName": "Nokia",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor"
-      ],
-      "rank": 360,
-      "active_cna_count": 364,
-      "percentile": 1.4,
-      "total_cves": 10,
-      "recent_cves": 10,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 50.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 0.0,
-        "software_identification": 0.0,
-        "severity_and_impact": 0.0,
-        "patchinfo": 0.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "All vulnerabilities in Nokia products.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://www.nokia.com/about-us/security-and-privacy/product-security-advisory/"
-        }
-      ],
-      "officialCnaID": "CNA-2023-0055",
-      "country": "Finland",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.nokia.com/notices/responsible-disclosure/"
-        }
-      ]
-    },
-    {
       "shortName": "debian",
       "detailFile": "debian__CNA-2005-0003.json",
       "organizationName": "Debian GNU/Linux",
@@ -468,8 +381,8 @@
         "Vendor",
         "Open Source"
       ],
-      "rank": 360,
-      "active_cna_count": 364,
+      "rank": 359,
+      "active_cna_count": 363,
       "percentile": 1.4,
       "total_cves": 2,
       "recent_cves": 2,
@@ -505,18 +418,18 @@
       ]
     },
     {
-      "shortName": "jenkins",
-      "detailFile": "jenkins__CNA-2018-0015.json",
-      "organizationName": "Jenkins Project",
-      "cnaType": "Open Source",
+      "shortName": "apple",
+      "detailFile": "apple__CNA-2009-0002.json",
+      "organizationName": "Apple Inc.",
+      "cnaType": "Vendor",
       "cnaTypes": [
-        "Open Source"
+        "Vendor"
       ],
-      "rank": 360,
-      "active_cna_count": 364,
+      "rank": 359,
+      "active_cna_count": 363,
       "percentile": 1.4,
-      "total_cves": 140,
-      "recent_cves": 140,
+      "total_cves": 990,
+      "recent_cves": 990,
       "is_active": true,
       "scores": {
         "overall_average_score": 50.0,
@@ -531,20 +444,20 @@
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "Jenkins and Jenkins plugins distributed by the Jenkins Project (listed on <a href='https://plugins.jenkins.io/' target='_blank'>plugins.jenkins.io</a>) only.",
+      "scope": "Apple issues only.",
       "advisories": [
         {
           "label": "Advisories",
-          "url": "https://jenkins.io/security/advisories/"
+          "url": "https://support.apple.com/en-us/HT201222"
         }
       ],
-      "officialCnaID": "CNA-2018-0015",
+      "officialCnaID": "CNA-2009-0002",
       "country": "USA",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://jenkins.io/security/"
+          "url": "https://support.apple.com/en-us/HT201220"
         }
       ]
     },
@@ -557,8 +470,8 @@
         "Vendor",
         "Open Source"
       ],
-      "rank": 360,
-      "active_cna_count": 364,
+      "rank": 359,
+      "active_cna_count": 363,
       "percentile": 1.4,
       "total_cves": 683,
       "recent_cves": 683,
@@ -594,18 +507,18 @@
       ]
     },
     {
-      "shortName": "apple",
-      "detailFile": "apple__CNA-2009-0002.json",
-      "organizationName": "Apple Inc.",
-      "cnaType": "Vendor",
+      "shortName": "jenkins",
+      "detailFile": "jenkins__CNA-2018-0015.json",
+      "organizationName": "Jenkins Project",
+      "cnaType": "Open Source",
       "cnaTypes": [
-        "Vendor"
+        "Open Source"
       ],
-      "rank": 360,
-      "active_cna_count": 364,
+      "rank": 359,
+      "active_cna_count": 363,
       "percentile": 1.4,
-      "total_cves": 991,
-      "recent_cves": 991,
+      "total_cves": 140,
+      "recent_cves": 140,
       "is_active": true,
       "scores": {
         "overall_average_score": 50.0,
@@ -620,20 +533,64 @@
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "Apple issues only.",
+      "scope": "Jenkins and Jenkins plugins distributed by the Jenkins Project (listed on <a href='https://plugins.jenkins.io/' target='_blank'>plugins.jenkins.io</a>) only.",
       "advisories": [
         {
           "label": "Advisories",
-          "url": "https://support.apple.com/en-us/HT201222"
+          "url": "https://jenkins.io/security/advisories/"
         }
       ],
-      "officialCnaID": "CNA-2009-0002",
+      "officialCnaID": "CNA-2018-0015",
       "country": "USA",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://support.apple.com/en-us/HT201220"
+          "url": "https://jenkins.io/security/"
+        }
+      ]
+    },
+    {
+      "shortName": "Nokia",
+      "detailFile": "Nokia__CNA-2023-0055.json",
+      "organizationName": "Nokia",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor"
+      ],
+      "rank": 359,
+      "active_cna_count": 363,
+      "percentile": 1.4,
+      "total_cves": 10,
+      "recent_cves": 10,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 50.0,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 0.0,
+        "software_identification": 0.0,
+        "severity_and_impact": 0.0,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "All vulnerabilities in Nokia products.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://www.nokia.com/about-us/security-and-privacy/product-security-advisory/"
+        }
+      ],
+      "officialCnaID": "CNA-2023-0055",
+      "country": "Finland",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.nokia.com/notices/responsible-disclosure/"
         }
       ]
     }
