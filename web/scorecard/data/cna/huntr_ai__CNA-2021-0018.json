@@ -36,7 +36,7 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 124,
-  "active_cna_count": 370,
+  "active_cna_count": 371,
   "percentile": 66.8,
   "cna_scoring": [
     {
@@ -60,6 +60,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-10595",
+      "assigningCna": "@huntr_ai",
+      "datePublished": "2026-08-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-12228",
       "assigningCna": "@huntr_ai",
@@ -337,19 +350,6 @@
       "cveId": "CVE-2026-4137",
       "assigningCna": "@huntr_ai",
       "datePublished": "2026-05-18",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-10595",
-      "assigningCna": "@huntr_ai",
-      "datePublished": "2026-08-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
