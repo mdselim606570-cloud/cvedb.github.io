@@ -39,8 +39,8 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 284,
-  "active_cna_count": 372,
+  "rank": 285,
+  "active_cna_count": 373,
   "percentile": 23.9,
   "cna_scoring": [
     {
@@ -64,6 +64,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-14160",
+      "assigningCna": "samsung.tv_appliance",
+      "datePublished": "2026-06-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-82926",
       "assigningCna": "samsung.tv_appliance",
@@ -338,9 +351,35 @@
       }
     },
     {
-      "cveId": "CVE-2026-14160",
+      "cveId": "CVE-2026-18772",
       "assigningCna": "samsung.tv_appliance",
-      "datePublished": "2026-06-30",
+      "datePublished": "2026-08-04",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-15551",
+      "assigningCna": "samsung.tv_appliance",
+      "datePublished": "2026-07-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-108978",
+      "assigningCna": "samsung.tv_appliance",
+      "datePublished": "2026-10-11",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -406,45 +445,6 @@
       "cveId": "CVE-2026-10305",
       "assigningCna": "samsung.tv_appliance",
       "datePublished": "2026-06-04",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-18772",
-      "assigningCna": "samsung.tv_appliance",
-      "datePublished": "2026-08-04",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-15551",
-      "assigningCna": "samsung.tv_appliance",
-      "datePublished": "2026-07-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-108978",
-      "assigningCna": "samsung.tv_appliance",
-      "datePublished": "2026-10-11",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
