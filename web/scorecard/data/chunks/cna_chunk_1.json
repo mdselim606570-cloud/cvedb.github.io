@@ -5,61 +5,9 @@
   "count": 50,
   "items": [
     {
-      "shortName": "WrenSecurity",
-      "detailFile": "WrenSecurity__CNA-2023-0067.json",
-      "organizationName": "Wren Security",
-      "cnaType": "Open Source",
-      "cnaTypes": [
-        "Open Source"
-      ],
-      "rank": 23,
-      "active_cna_count": 376,
-      "percentile": 94.1,
-      "total_cves": 1,
-      "recent_cves": 1,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 90.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 0.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 100.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "Wren Security maintained software.",
-      "advisories": [
-        {
-          "label": "Wren:IDM Advisories",
-          "url": "https://github.com/WrenSecurity/wrenidm/security"
-        },
-        {
-          "label": "Wren:AM Advisories",
-          "url": "https://github.com/WrenSecurity/wrenam/security"
-        },
-        {
-          "label": "Wren:DS Advisories",
-          "url": "https://github.com/WrenSecurity/wrends/security"
-        }
-      ],
-      "officialCnaID": "CNA-2023-0067",
-      "country": "Czech Republic",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://wrensecurity.org/community/disclosure.html"
-        }
-      ]
-    },
-    {
-      "shortName": "WatchGuard",
-      "detailFile": "WatchGuard__CNA-2023-0013.json",
-      "organizationName": "WatchGuard Technologies, Inc.",
+      "shortName": "FTI",
+      "detailFile": "FTI__CNA-2026-0022.json",
+      "organizationName": "Fsas Technologies",
       "cnaType": "Vendor",
       "cnaTypes": [
         "Vendor"
@@ -67,8 +15,8 @@
       "rank": 23,
       "active_cna_count": 376,
       "percentile": 94.1,
-      "total_cves": 93,
-      "recent_cves": 93,
+      "total_cves": 2,
+      "recent_cves": 2,
       "is_active": true,
       "scores": {
         "overall_average_score": 90.0,
@@ -83,20 +31,64 @@
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "Vulnerabilities in all WatchGuard products and products of WatchGuard subsidiaries.",
+      "scope": "Fsas Technologies (a Fujitsu company) in the Europe/EMEA region only.",
       "advisories": [
         {
           "label": "Advisories",
-          "url": "https://www.watchguard.com/wgrd-psirt/advisories"
+          "url": "https://security.eu.fsastech.com"
         }
       ],
-      "officialCnaID": "CNA-2023-0013",
+      "officialCnaID": "CNA-2026-0022",
+      "country": "Germany",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://security.eu.fsastech.com"
+        }
+      ]
+    },
+    {
+      "shortName": "illumos",
+      "detailFile": "illumos__CNA-2026-0046.json",
+      "organizationName": "The illumos project",
+      "cnaType": "Open Source",
+      "cnaTypes": [
+        "Open Source"
+      ],
+      "rank": 23,
+      "active_cna_count": 376,
+      "percentile": 94.1,
+      "total_cves": 9,
+      "recent_cves": 9,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 90.0,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 0.0,
+        "severity_and_impact": 100.0,
+        "patchinfo": 100.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "The illumos project’s <a href='https://code.illumos.org/plugins/gitiles/illumos-gate' target='_blank'>illumos-gate repository</a> and related downstream distributions such as <a href='https://openindiana.org' target='_blank'>OpenIndiana</a>, <a href='https://wiki.smartos.org' target='_blank'>SmartOS</a>, and <a href='https://omnios.org' target='_blank'>OmniOS</a>.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://illumos.org/docs/security/"
+        }
+      ],
+      "officialCnaID": "CNA-2026-0046",
       "country": "USA",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://www.watchguard.com/wgrd-psirt/responsible-disclosure-policy"
+          "url": "https://illumos.org/docs/security/"
         }
       ]
     },
@@ -111,16 +103,16 @@
       "rank": 53,
       "active_cna_count": 376,
       "percentile": 86.2,
-      "total_cves": 157,
-      "recent_cves": 157,
+      "total_cves": 155,
+      "recent_cves": 155,
       "is_active": true,
       "scores": {
         "overall_average_score": 89.94,
         "foundational_completeness": 100.0,
-        "root_cause_analysis": 97.45,
-        "software_identification": 73.25,
+        "root_cause_analysis": 97.42,
+        "software_identification": 72.9,
         "severity_and_impact": 100.0,
-        "patchinfo": 29.94
+        "patchinfo": 30.32
       },
       "trend": {
         "direction": "steady",
@@ -1140,52 +1132,6 @@
       ]
     },
     {
-      "shortName": "flexera",
-      "detailFile": "flexera__CNA-2017-0004.json",
-      "organizationName": "Flexera Software LLC",
-      "cnaType": "Vendor",
-      "cnaTypes": [
-        "Vendor",
-        "Open Source",
-        "Researcher"
-      ],
-      "rank": 76,
-      "active_cna_count": 376,
-      "percentile": 80.1,
-      "total_cves": 5,
-      "recent_cves": 5,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 86.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 40.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 20.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "All Flexera, Revenera, and Snow Software products, and vulnerabilities discovered by Secunia Research that are not in another CNA’s scope.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "url": "https://security-info.flexera.com/"
-        }
-      ],
-      "officialCnaID": "CNA-2017-0004",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.flexera.com/products/operations/software-vulnerability-research/secunia-research/disclosure-policy.html?_ga=2.126100429.1927534686.1582843801-707336045.1578583910"
-        }
-      ]
-    },
-    {
       "shortName": "PingIdentity",
       "detailFile": "PingIdentity__CNA-2021-0042.json",
       "organizationName": "Ping Identity Corporation",
@@ -1281,47 +1227,48 @@
       ]
     },
     {
-      "shortName": "DSF",
-      "detailFile": "DSF__CNA-2025-0057.json",
-      "organizationName": "Django Software Foundation",
+      "shortName": "flexera",
+      "detailFile": "flexera__CNA-2017-0004.json",
+      "organizationName": "Flexera Software LLC",
       "cnaType": "Vendor",
       "cnaTypes": [
         "Vendor",
-        "Open Source"
+        "Open Source",
+        "Researcher"
       ],
-      "rank": 79,
+      "rank": 76,
       "active_cna_count": 376,
-      "percentile": 79.3,
-      "total_cves": 24,
-      "recent_cves": 24,
+      "percentile": 80.1,
+      "total_cves": 5,
+      "recent_cves": 5,
       "is_active": true,
       "scores": {
-        "overall_average_score": 85.83,
+        "overall_average_score": 86.0,
         "foundational_completeness": 100.0,
         "root_cause_analysis": 100.0,
-        "software_identification": 0.0,
+        "software_identification": 40.0,
         "severity_and_impact": 100.0,
-        "patchinfo": 58.33
+        "patchinfo": 20.0
       },
       "trend": {
         "direction": "steady",
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "Only supported and end-of-life Django versions available at <a href='https://www.djangoproject.com/download/' target='_blank'>https://www.djangoproject.com/download/</a> and projects listed at <a href='https://github.com/django' target='_blank'>https://github.com/django</a> (such as Django, channels, and daphne), excluding distributions maintained by third-party redistributors.",
+      "scope": "All Flexera, Revenera, and Snow Software products, and vulnerabilities discovered by Secunia Research that are not in another CNA’s scope.",
       "advisories": [
         {
           "label": "Advisories",
-          "url": "https://docs.djangoproject.com/en/stable/releases/security/"
+          "url": "https://security-info.flexera.com/"
         }
       ],
-      "officialCnaID": "CNA-2025-0057",
+      "officialCnaID": "CNA-2017-0004",
       "country": "USA",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://www.djangoproject.com/foundation/cve-numbering-authority/"
+          "url": "https://www.flexera.com/products/operations/software-vulnerability-research/secunia-research/disclosure-policy.html?_ga=2.126100429.1927534686.1582843801-707336045.1578583910"
         }
       ]
     },
@@ -1368,6 +1315,51 @@
           "label": "Policy",
           "language": "",
           "url": "https://docs.herodevs.com/policies/security-disclosure"
+        }
+      ]
+    },
+    {
+      "shortName": "DSF",
+      "detailFile": "DSF__CNA-2025-0057.json",
+      "organizationName": "Django Software Foundation",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor",
+        "Open Source"
+      ],
+      "rank": 79,
+      "active_cna_count": 376,
+      "percentile": 79.3,
+      "total_cves": 24,
+      "recent_cves": 24,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 85.83,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 0.0,
+        "severity_and_impact": 100.0,
+        "patchinfo": 58.33
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "Only supported and end-of-life Django versions available at <a href='https://www.djangoproject.com/download/' target='_blank'>https://www.djangoproject.com/download/</a> and projects listed at <a href='https://github.com/django' target='_blank'>https://github.com/django</a> (such as Django, channels, and daphne), excluding distributions maintained by third-party redistributors.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://docs.djangoproject.com/en/stable/releases/security/"
+        }
+      ],
+      "officialCnaID": "CNA-2025-0057",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.djangoproject.com/foundation/cve-numbering-authority/"
         }
       ]
     },
@@ -1607,47 +1599,105 @@
       ]
     },
     {
-      "shortName": "GitLab",
-      "detailFile": "GitLab__CNA-2020-0018.json",
-      "organizationName": "GitLab Inc.",
-      "cnaType": "Vendor",
+      "shortName": "CERT-PL",
+      "detailFile": "CERT-PL__CNA-2023-0046.json",
+      "organizationName": "CERT.PL",
+      "cnaType": "CERT",
       "cnaTypes": [
-        "Vendor",
-        "Researcher"
+        "CERT"
       ],
       "rank": 86,
       "active_cna_count": 376,
       "percentile": 77.4,
-      "total_cves": 326,
-      "recent_cves": 326,
+      "total_cves": 261,
+      "recent_cves": 261,
       "is_active": true,
       "scores": {
-        "overall_average_score": 85.11,
+        "overall_average_score": 85.1,
         "foundational_completeness": 100.0,
-        "root_cause_analysis": 99.69,
-        "software_identification": 51.53,
+        "root_cause_analysis": 100.0,
+        "software_identification": 37.93,
         "severity_and_impact": 100.0,
-        "patchinfo": 0.0
+        "patchinfo": 13.03
       },
       "trend": {
         "direction": "steady",
         "description": "No significant change",
         "monthly_data": []
       },
-      "scope": "The GitLab application, any project hosted on GitLab.com in a public repository, and any vulnerabilities discovered by GitLab that are not in another CNA’s scope.",
+      "scope": "Vulnerabilities in software discovered by CERT.PL, and vulnerabilities reported to CERT.PL for coordinated disclosure, which are not in another CNA’s scope.",
+      "advisories": [
+        {
+          "label": "Advisories (Polish)",
+          "url": "https://cert.pl/cve/"
+        },
+        {
+          "label": "Advisories (English)",
+          "url": "https://cert.pl/en/cve/"
+        }
+      ],
+      "officialCnaID": "CNA-2023-0046",
+      "country": "Poland",
+      "disclosurePolicy": [
+        {
+          "label": "Policy (Polish)",
+          "language": "Polish",
+          "url": "https://cert.pl/cvd/"
+        },
+        {
+          "label": "Policy (English)",
+          "language": "English",
+          "url": "https://cert.pl/en/cvd/"
+        }
+      ]
+    },
+    {
+      "shortName": "dotCMS",
+      "detailFile": "dotCMS__CNA-2023-0001.json",
+      "organizationName": "dotCMS LLC",
+      "cnaType": "Hosted Service",
+      "cnaTypes": [
+        "Hosted Service"
+      ],
+      "rank": 87,
+      "active_cna_count": 376,
+      "percentile": 77.1,
+      "total_cves": 2,
+      "recent_cves": 2,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 85.0,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 0.0,
+        "severity_and_impact": 100.0,
+        "patchinfo": 50.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "All dotCMS product services including the vulnerabilities reported in our open source core located at <a href='https://github.com/dotCMS/core' target='_blank'>https://github.com/dotCMS/core</a>.",
       "advisories": [
         {
           "label": "Advisories",
-          "url": "https://gitlab.com/gitlab-org/cves"
+          "language": "",
+          "url": "https://www.dotcms.com/docs/latest/known-security-issues"
         }
       ],
-      "officialCnaID": "CNA-2020-0018",
+      "officialCnaID": "CNA-2023-0001",
       "country": "USA",
       "disclosurePolicy": [
         {
           "label": "Policy",
           "language": "",
-          "url": "https://about.gitlab.com/security/disclosure/"
+          "url": "https://www.dotcms.com/docs/latest/responsible-disclosure-policy"
+        },
+        {
+          "label": "Reporting Issues",
+          "language": "",
+          "url": "https://www.dotcms.com/docs/latest/security-and-privacy#:~:text=dotCMS%20will%20disclose%20all%20issues,fix%20the%20reported%20security%20issue"
         }
       ]
     },
@@ -1740,109 +1790,6 @@
       ]
     },
     {
-      "shortName": "CERT-PL",
-      "detailFile": "CERT-PL__CNA-2023-0046.json",
-      "organizationName": "CERT.PL",
-      "cnaType": "CERT",
-      "cnaTypes": [
-        "CERT"
-      ],
-      "rank": 87,
-      "active_cna_count": 376,
-      "percentile": 77.1,
-      "total_cves": 266,
-      "recent_cves": 266,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 85.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 37.22,
-        "severity_and_impact": 100.0,
-        "patchinfo": 12.78
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "Vulnerabilities in software discovered by CERT.PL, and vulnerabilities reported to CERT.PL for coordinated disclosure, which are not in another CNA’s scope.",
-      "advisories": [
-        {
-          "label": "Advisories (Polish)",
-          "url": "https://cert.pl/cve/"
-        },
-        {
-          "label": "Advisories (English)",
-          "url": "https://cert.pl/en/cve/"
-        }
-      ],
-      "officialCnaID": "CNA-2023-0046",
-      "country": "Poland",
-      "disclosurePolicy": [
-        {
-          "label": "Policy (Polish)",
-          "language": "Polish",
-          "url": "https://cert.pl/cvd/"
-        },
-        {
-          "label": "Policy (English)",
-          "language": "English",
-          "url": "https://cert.pl/en/cvd/"
-        }
-      ]
-    },
-    {
-      "shortName": "dotCMS",
-      "detailFile": "dotCMS__CNA-2023-0001.json",
-      "organizationName": "dotCMS LLC",
-      "cnaType": "Hosted Service",
-      "cnaTypes": [
-        "Hosted Service"
-      ],
-      "rank": 87,
-      "active_cna_count": 376,
-      "percentile": 77.1,
-      "total_cves": 2,
-      "recent_cves": 2,
-      "is_active": true,
-      "scores": {
-        "overall_average_score": 85.0,
-        "foundational_completeness": 100.0,
-        "root_cause_analysis": 100.0,
-        "software_identification": 0.0,
-        "severity_and_impact": 100.0,
-        "patchinfo": 50.0
-      },
-      "trend": {
-        "direction": "steady",
-        "description": "No significant change",
-        "monthly_data": []
-      },
-      "scope": "All dotCMS product services including the vulnerabilities reported in our open source core located at <a href='https://github.com/dotCMS/core' target='_blank'>https://github.com/dotCMS/core</a>.",
-      "advisories": [
-        {
-          "label": "Advisories",
-          "language": "",
-          "url": "https://www.dotcms.com/docs/latest/known-security-issues"
-        }
-      ],
-      "officialCnaID": "CNA-2023-0001",
-      "country": "USA",
-      "disclosurePolicy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://www.dotcms.com/docs/latest/responsible-disclosure-policy"
-        },
-        {
-          "label": "Reporting Issues",
-          "language": "",
-          "url": "https://www.dotcms.com/docs/latest/security-and-privacy#:~:text=dotCMS%20will%20disclose%20all%20issues,fix%20the%20reported%20security%20issue"
-        }
-      ]
-    },
-    {
       "shortName": "hp",
       "detailFile": "hp__CNA-2009-0003.json",
       "organizationName": "HP Inc.",
@@ -1850,9 +1797,9 @@
       "cnaTypes": [
         "Vendor"
       ],
-      "rank": 91,
+      "rank": 90,
       "active_cna_count": 376,
-      "percentile": 76.1,
+      "percentile": 76.3,
       "total_cves": 36,
       "recent_cves": 36,
       "is_active": true,
@@ -1883,6 +1830,51 @@
           "label": "Policy",
           "language": "",
           "url": "https://support.hp.com/us-en/document/ish_12775610-12775642-16"
+        }
+      ]
+    },
+    {
+      "shortName": "GitLab",
+      "detailFile": "GitLab__CNA-2020-0018.json",
+      "organizationName": "GitLab Inc.",
+      "cnaType": "Vendor",
+      "cnaTypes": [
+        "Vendor",
+        "Researcher"
+      ],
+      "rank": 91,
+      "active_cna_count": 376,
+      "percentile": 76.1,
+      "total_cves": 302,
+      "recent_cves": 302,
+      "is_active": true,
+      "scores": {
+        "overall_average_score": 84.77,
+        "foundational_completeness": 100.0,
+        "root_cause_analysis": 100.0,
+        "software_identification": 47.68,
+        "severity_and_impact": 100.0,
+        "patchinfo": 0.0
+      },
+      "trend": {
+        "direction": "steady",
+        "description": "No significant change",
+        "monthly_data": []
+      },
+      "scope": "The GitLab application, any project hosted on GitLab.com in a public repository, and any vulnerabilities discovered by GitLab that are not in another CNA’s scope.",
+      "advisories": [
+        {
+          "label": "Advisories",
+          "url": "https://gitlab.com/gitlab-org/cves"
+        }
+      ],
+      "officialCnaID": "CNA-2020-0018",
+      "country": "USA",
+      "disclosurePolicy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://about.gitlab.com/security/disclosure/"
         }
       ]
     },
@@ -1987,16 +1979,16 @@
       "rank": 94,
       "active_cna_count": 376,
       "percentile": 75.3,
-      "total_cves": 42,
-      "recent_cves": 42,
+      "total_cves": 41,
+      "recent_cves": 41,
       "is_active": true,
       "scores": {
-        "overall_average_score": 84.05,
+        "overall_average_score": 83.9,
         "foundational_completeness": 100.0,
         "root_cause_analysis": 100.0,
         "software_identification": 0.0,
         "severity_and_impact": 100.0,
-        "patchinfo": 40.48
+        "patchinfo": 39.02
       },
       "trend": {
         "direction": "steady",
