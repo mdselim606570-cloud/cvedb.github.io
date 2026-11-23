@@ -34,9 +34,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 68,
-  "active_cna_count": 379,
-  "percentile": 82.3,
+  "rank": 67,
+  "active_cna_count": 378,
+  "percentile": 82.5,
   "cna_scoring": [
     {
       "total_cves": 10,
@@ -60,42 +60,16 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-110339",
-      "assigningCna": "libreswan",
-      "datePublished": "2026-11-16",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-50721",
+      "cveId": "CVE-2026-12413",
       "assigningCna": "libreswan",
       "datePublished": "2026-07-02",
-      "totalCveScore": 90,
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-50722",
-      "assigningCna": "libreswan",
-      "datePublished": "2026-07-02",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
+        "patchinfo": 0
       }
     },
     {
@@ -138,16 +112,42 @@
       }
     },
     {
-      "cveId": "CVE-2026-12413",
+      "cveId": "CVE-2026-110339",
       "assigningCna": "libreswan",
-      "datePublished": "2026-07-02",
-      "totalCveScore": 80,
+      "datePublished": "2026-11-16",
+      "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 0
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-50721",
+      "assigningCna": "libreswan",
+      "datePublished": "2026-07-02",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-50722",
+      "assigningCna": "libreswan",
+      "datePublished": "2026-07-02",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
