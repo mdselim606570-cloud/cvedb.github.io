@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 102,
-  "active_cna_count": 378,
-  "percentile": 73.3,
+  "rank": 104,
+  "active_cna_count": 379,
+  "percentile": 72.8,
   "cna_scoring": [
     {
       "total_cves": 27,
@@ -59,6 +59,19 @@
   ],
   "recent_cves": [
     {
+      "cveId": "CVE-2026-15228",
+      "assigningCna": "Kong",
+      "datePublished": "2026-07-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-123041",
       "assigningCna": "Kong",
       "datePublished": "2026-11-10",
@@ -72,9 +85,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-15228",
+      "cveId": "CVE-2026-6338",
       "assigningCna": "Kong",
-      "datePublished": "2026-07-29",
+      "datePublished": "2026-06-11",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -101,19 +114,6 @@
       "cveId": "CVE-2026-105986",
       "assigningCna": "Kong",
       "datePublished": "2026-11-10",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6338",
-      "assigningCna": "Kong",
-      "datePublished": "2026-06-11",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
