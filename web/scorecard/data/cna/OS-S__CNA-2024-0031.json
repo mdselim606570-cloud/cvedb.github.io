@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 128,
+  "rank": 129,
   "active_cna_count": 380,
-  "percentile": 66.6,
+  "percentile": 66.3,
   "cna_scoring": [
     {
       "total_cves": 3,
@@ -59,19 +59,6 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-133002",
-      "assigningCna": "OS-S",
-      "datePublished": "2026-11-24",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-132887",
       "assigningCna": "OS-S",
       "datePublished": "2026-11-24",
@@ -86,6 +73,19 @@
     },
     {
       "cveId": "CVE-2026-132157",
+      "assigningCna": "OS-S",
+      "datePublished": "2026-11-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-133002",
       "assigningCna": "OS-S",
       "datePublished": "2026-11-24",
       "totalCveScore": 80,
